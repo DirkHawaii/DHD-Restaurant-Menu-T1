@@ -1,0 +1,1326 @@
+﻿
+html {overflow-y:scroll;}  /* FORCE SCROLL TO BE ON PAGE */
+body {font-family:'Open Sans', sans-serif;font-size:16px;font-style:normal;margin:0px;border:0px;padding:0px;width:100%; background-color:#6688A2;}
+
+/**   A N C H O R S
+  ***************************************************************************************************************************************************/
+a:link    {text-decoration:none;color:#555;}
+a:visited {text-decoration:none;color:#555;}
+a:active  {text-decoration:none;color:#555;}
+a:hover   {text-decoration:underline;color:#000;}
+
+
+a.SiteLink:link    {text-decoration:underline;color:#555;}
+a.SiteLink:visited {text-decoration:underline;color:#555;}
+a.SiteLink:active  {text-decoration:underline;color:#555;}
+a.SiteLink:hover   {text-decoration:underline;color:#000;}
+
+/**   H E A D E R S   &   P A R A G R A P H
+  ***************************************************************************************************************************************************/
+h1,h2,h3,h4,h5,h6  {font-family:'Hind',Tahoma,Helvetica,Arial,sans-serif;margin:0px;border:0px none #000;padding:10px 0px;}
+h1  {font-size:1.7em;}
+h2  {font-size:1.4em;}
+h3  {font-size:1.3em;}
+h4  {font-size:1.2em;}
+h5  {font-size:1.1em;}
+h6  {font-size:1.0em;}
+p {font-size:1.0em;line-height:1.5em;font-weight:400;margin:0px;border:0px;padding:10px 0px;}
+
+/******************************************************************************************************  L O W - R E S  **************************************************/
+@media screen and (max-width:639px) {
+  /**   H E A D E R
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-color:#1D6291;}
+  div#HeaderImg {position:absolute;top:20px;left:20px;background:transparent url('../Images/PPT_Logo.png') no-repeat;width:160px;height:100px;margin:0px;border:0px none #0F0;padding:0px;}
+  div#HeaderText {display:none;}
+  
+  /**   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {position:absolute;top:10px;right:10px;margin:0px;border:0px;padding:0px;}
+  div#NavLink a.to_nav {height:2.4em;font-size:1.0em;font-weight:700;line-height:1.5em;text-decoration:none;text-transform:uppercase;letter-spacing:0.125em;color:#fff;background-color:#000;margin:0em;border:0.125em solid #fff;padding:0.125em 0.625em;-webkit-border-radius: 0.1875em;-moz-border-radius: 0.1875em;border-radius: 0.1875em;}
+  div#NavLink a.to_nav:hover, a.to_nav:focus {color: #1c1c1c;background: #ccc;}
+
+  div#NavWrap {position:relative;width:100%;margin:0em;border:0em none #fff;padding:0em;background-color:#1D6291;}
+  ul#Nav {width:100%;height:100%;margin:0em;border:0em none #fff;padding:0em;list-style:none;}
+  ul#Nav > li {display:block;width:100%;margin:0em;border:0em none #ACE;padding:0em;text-align:center;}
+  ul#Nav > li > a {display:block;width:100%;height:2.0em;text-decoration:none;font-size:1.5em;line-height:1.75em;font-weight:700;color:#FFF;background-color:#134A71;margin:0em;border-top:0em none #fff;border-right:0em none #fff;border-bottom:0.0625em solid #fff;border-left:0em none #fff;padding:0em;}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:#000;color:#fff;}
+  #NavWrap ul.hovered > li > a {background-color:#000;color:#fff;}
+  a.BtmNavLink {display:block;}
+  a.BtmNavLink {margin:0px;border:0px;padding:1% 2% 5% 2%;}
+  a.BtmNavLink {font-size:0.9em;font-weight:700;}
+  a.BtmNavLink:link, a.BtmNavLink:visited {text-decoration:none;}
+  a.BtmNavLink:hover, a.BtmNavLink:active {text-decoration:none;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {display:none;}
+  div.FooterText {display:none;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;position:relative;top:0px;overflow:hidden;margin-left:auto;margin-right:auto;margin-top:0px;margin-bottom:0px;border:0px;padding:0px;z-index:1;}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  .Col-1-0 {width:98%;margin:0px;border:0px none #333;padding:1% 1% 1% 1%;float: left;}
+  .Col-1-2:first-child {width:98%;margin:0px;border:0px none #333;padding:1% 1%;float: left;}
+  .Col-1-2:last-child  {width:98%;margin:0px;border:0px none #333;padding:1% 1%;float: left;}
+  .Col-1-4:first-child   {width:47%;margin:1% 1% 1% 2%;border:0px none #fff;padding:0px;float: left;}
+  .Col-1-4:nth-child(2)  {width:47%;margin:1% 2% 1% 1%;border:0px none #fff;padding:0px;float: left;}
+  .Col-1-4:nth-child(3)  {width:47%;margin:1% 1% 1% 2%;border:0px none #fff;padding:0px;float: left;}
+  .Col-1-4:last-child    {width:47%;margin:1% 2% 1% 1%;border:0px none #fff;padding:0px;float: left;}
+  .Grid:after {content:"";display:table;clear:both;}
+  div.G-Grid {width:100%;margin:0px;border:0px none #333;padding:0px;}
+  .GCol-G1  {float:left;width:98%;margin:1% 1% 1% 1%;border:0px none #fff;padding:0px;}
+  .GCol-G2  {float:left;width:98%;margin:1% 1% 1% 1%;border:0px none #fff;padding:0px;}
+  div.G-Grid:after {content:"";display:table;clear:both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.BannerImg {margin:0px;border:0px none #fff;padding:0px 20px;}
+  img.QtrImg {max-width:100%;border:0px solid transparent;border-radius:8px;}
+  img.ImgG1 {max-width:96%;margin:0% 2% 1% 2%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG2 {max-width:96%;margin:0% 2% 1% 2%;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.StaffImg {max-width:100%;margin:0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.MapImg {width:579px;height:450px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:none;}
+  a.SLinkOff {display:none;}
+  a.MLink {display:normal;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:96%;margin:0% 2% 0% 2%;border:0px;padding:0px;}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a.MLink {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a.MLink:link, #StaffList > li > a.MLink:visited {text-decoration:none;}
+  #StaffList > li > a.MLink:hover, #StaffList > li > a.MLink:active {text-decoration:none;}
+
+  #StaffList > li > a.MLink > img {max-width:20%;max-height:20%;margin:0% 0% 0% 0%;border:0px solid transparent;border-radius:8px;padding:0% 0% 0% 0%;}
+
+  #StaffList > li > a.MLink > span {display:inline-block;width:80%;position:relative;bottom:15px;background-color:#1D6291;margin:0% 0% 1% 0%;border:0px solid transparent;
+                                    border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;padding:0% 0% 0% 0%;}
+
+  #StaffList > li > a.MLink > span > span:nth-child(1) {position:relative;margin:0px;border:0px none #333;padding:1% 2% 0% 3%;font-size:1.1em;font-weight:700;color:#fff;display:block;}
+  #StaffList > li > a.MLink > span > span:nth-child(2) {position:relative;margin:0px;border:0px none #333;padding:0% 2% 1% 3%;font-size:1.1em;font-weight:700;color:#fff;display:block;}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:96%;margin:0% 2% 0% 2%;border:0px;padding:0px;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:relative;width:90%;height:auto;margin:0% 0% 10% 0%;border:0px none #000;padding:0%;display:block;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+
+  /**   C O N T A C T   P A G E   S E T T I N G S  mapsAccordion
+   ***************************************************************************************************************************************************/
+  div#Maps {width:579px;min-height:450px;margin:0px;border:0px none #000;padding:0px;overflow:hidden;background-color:#abd;}
+  #map {width:579px;height:450px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  table.AddressTable {width:340px;margin:10px 0px;border:0px none #fff;padding:0px;}
+  table.AddressTable th {margin:0px;border:0px none #fff;padding:0px;text-align:left;vertical-align:middle;}
+  table.AddressTable td {margin:0px;border:0px none #fff;padding:0px 20px 0px 0px;text-align:left;vertical-align:middle;}
+
+  /**   F A D E   C O N T A I N E R S
+   ***************************************************************************************************************************************************/
+  div#fade-container {display:none;}
+  #fc-container-1 {display:none;}
+  #fc-container-2 {display:none;}
+  #fc-container-3 {display:none;}
+  #fc-container-4 {display:none;}
+  #fc-container-5 {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {display:none;}           /* LINKEDIN     */
+  div#SM-GPlus    {display:none;}           /* GPLUS        */
+  div#SM-FB       {display:none;}           /* FACEBOOK     */
+
+  /**   T E S T I M O N I A L   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:100%;margin:0% 0% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;float:left;margin:2% 2%;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(4) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(2) > img.RateStar {max-width:100%;}
+  div.TestLeft:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:100%;margin:0% 0% 0% 0%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+}
+/******************************************************************************************************  F I V E  ********************************************************/
+@media screen and (min-width:640px) and (max-width:768px) {
+  /**   H E A D E R
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background:transparent url('../Images/Banner.png') no-repeat;background-size:cover;}
+  div#HeaderImg {position:absolute;top:20px;left:20px;background:transparent url('../Images/PPT_Logo.png') no-repeat;width:160px;height:100px;margin:0px;border:0px none #0F0;padding:0px;}
+  div#HeaderText {position:absolute;top:20px;left:200px;width:389px;height:70px;margin:0px;border:0px none #0F0;padding:0px;color:#D5E4F3;font-family:Arial,Helvetica,sans-serif;font-size:14pt;font-style:italic;font-weight:700;}
+
+  /**   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:161px;left:0px;width:100%;height:61px;margin:0px;border:0px none #333;padding:10px 5px;background-clip:padding-box;background-color:rgba(29, 98, 145,0.5);z-index:99;}
+  ul#Nav {position:relative;top:5px;left:20px;margin:0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;height:30px;padding:0px;}
+  ul#Nav > li > a {height:30px;display:block;text-align:center;text-decoration:none;font-weight:700;font-size:0.75em;margin:0px 4px;border:1px solid #6688A2;border-radius:8px;padding:15px 15px 3px 15px;color:#FFF;background-color:#134A71;white-space:nowrap;}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(102, 136, 162, 0.5);color:#fff;}
+  div#NavWrap ul.hovered > li > a {background-color:rgba(102, 136, 162, 0.5);color:#fff;}
+  a.BtmNavLink {display: none;}
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#1D6291;color:#fff;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#fff;font-size:0.75em;text-transform:uppercase;font-weight:700;line-height:1.5em;letter-spacing:1px;word-spacing:10px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#fff;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#ddd;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;position:relative;overflow:hidden;margin:0px;border:0px;padding:0px;}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  [class*='Col-'] {float: left;margin:0px;border:0px none #fff;padding:0px;}
+  .Col-1-0 {width:96%;margin:0px;border:0px none #333;padding:0% 2% 0% 2%;}
+  .Col-1-2:first-child {width:47%;margin:0px;border:0px none #333;padding:0% 1% 0% 2%;}
+  .Col-1-2:last-child  {width:47%;margin:0px;border:0px none #333;padding:0% 2% 0% 1%;}
+  .Col-1-4 {width:23%;padding:2% 1% 2% 1%;background-color:transparent;}
+  .Grid:after {content: "";display: table;clear: both;}
+  div.G-Grid {width:100%;margin:0px;border:0px none #333;padding:0px;}
+  [class*='GCol-'] {float: left;border:0px none #fff;padding:0px;}
+  .GCol-G1  {width:96%;margin:1% 2% 1% 2%;}
+  .GCol-G2  {width:96%;margin:1% 2% 1% 2%;}
+  div.G-Grid:after {content: "";display: table;clear: both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.BannerImg {margin:0px;border:0px none #fff;padding:0px 20px;}
+  img.QtrImg {max-width:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG1 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.ImgG2 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.StaffImg {max-width:100%;margin:0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.MapImg {width:579px;height:450px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:normal;}
+  a.SLinkOff {display:normal;}
+  a.MLink {display:none;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:14%;margin:0% 1% 0% 3%;border:0px;padding:0px;/*background-color:#89A;*/}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a > span {position:absolute;top:60%;left:0%;width:100%;height:30%;}
+  #StaffList > li > a > span > span:nth-child(1) {position:absolute;top:0%; left:0%;margin:0px;border:0px none #333;padding:4px 4px 2px 4px;font-size:0.8em;}
+  #StaffList > li > a > span > span:nth-child(2) {position:absolute;top:50%;left:0%;margin:0px;border:0px none #333;padding:2px 4px 4px 4px;font-size:0.8em;}
+  #StaffList > li > a > img {max-width:100%;max-height:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  a.SLinkOn > span {background-color:rgba(29,98,145,0.5);}
+  a.SLinkOn > span > span:nth-child(1) {color:#fff;font-weight:700;}
+  a.SLinkOn > span > span:nth-child(2) {color:#fff;font-weight:700;}
+  a.SLinkOn > img {-webkit-filter: grayscale(0);filter: grayscale(0);}
+  a.SLinkOff > span {background-color:rgba(0,0,0,0.8);}
+  a.SLinkOff > span > span:nth-child(1) {color:#eee;font-weight:400;}
+  a.SLinkOff > span > span:nth-child(2) {color:#eee;font-weight:400;}
+  a.SLinkOff > img {-webkit-filter: grayscale(1);filter: grayscale(1);}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:78%;margin:0% 3% 0% 1%;border:0px;padding:0px;background-color:#A98;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:absolute;top:0px;left:0px;width:90%;height:auto;margin:0px;border:0px none #000;padding:0%;overflow:hidden;display:none;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+  /* SHOW THE FIRST FADE CONTAINER BY DEFAULT */
+  div#StaffRight > div#Staff1 {display:block;} /* SHOW THE FIRST PANEL */
+
+
+  /**   C O N T A C T   P A G E   S E T T I N G S  mapsAccordion
+   ***************************************************************************************************************************************************/
+  div#Maps {width:579px;min-height:450px;margin:0px;border:0px none #000;padding:0px;overflow:hidden;background-color:#abd;}
+  #map {width:579px;height:450px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  table.AddressTable {width:340px;margin:10px 0px;border:0px none #fff;padding:0px;}
+  table.AddressTable th {margin:0px;border:0px none #fff;padding:0px;text-align:left;vertical-align:middle;}
+  table.AddressTable td {margin:0px;border:0px none #fff;padding:0px 20px 0px 0px;text-align:left;vertical-align:middle;}
+
+  /**   F A D E   C O N T A I N E R S
+   ***************************************************************************************************************************************************/
+  div#fade-container {display:none;}
+  #fc-container-1 {display:none;}
+  #fc-container-2 {display:none;}
+  #fc-container-3 {display:none;}
+  #fc-container-4 {display:none;}
+  #fc-container-5 {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {position:absolute;top:20px;right:20px;width:80px;height:30px;margin:0px;border:0px none #fff;padding:0px;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:0px 5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:0px 5px;float:left;}            /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  /**   T E S T I M O N I A L   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:14%;margin:0% 2% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;font-size:0.8em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;font-size:0.8em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(4) {position:relative;color:#000;font-size:0.8em;font-weight:700;}
+  div.TestLeft > div:nth-child(2) > img.RateStar {max-width:100%;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:82%;margin:0% 0% 0% 2%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+}
+/******************************************************************************************************  S I X  **********************************************************/
+@media screen and (min-width:769px) and (max-width:1023px) {
+  /**   H E A D E R
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background:transparent url('../Images/Banner.png') no-repeat;background-size:cover;}
+  div#HeaderImg {position:absolute;top:20px;left:20px;background:transparent url('../Images/PPT_Logo.png') no-repeat;width:160px;height:100px;margin:0px;border:0px none #0F0;padding:0px;}
+  div#HeaderText {position:absolute;top:20px;left:200px;width:389px;height:70px;margin:0px;border:0px none #0F0;padding:0px;color:#D5E4F3;font-family:Arial,Helvetica,sans-serif;font-size:14pt;font-style:italic;font-weight:700;}
+
+  /**   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:161px;left:0px;width:100%;height:61px;margin:0px;border:0px none #333;padding:10px 5px;background-clip:padding-box;background-color:rgba(29, 98, 145,0.5);z-index:99;}
+  ul#Nav {position:relative;top:5px;left:20px;margin:0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;height:30px;padding:0px;}
+  ul#Nav > li > a {height:30px;display:block;text-align:center;text-decoration:none;font-weight:700;font-size:0.75em;margin:0px 4px;border:1px solid #6688A2;border-radius:8px;padding:15px 35px 3px 35px;color:#FFF;background-color:#134A71;white-space:nowrap;}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(102, 136, 162, 0.5);color:#fff;}
+  div#NavWrap ul.hovered > li > a {background-color:rgba(102, 136, 162, 0.5);color:#fff;}
+  a.BtmNavLink {display: none;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#1D6291;color:#fff;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#fff;font-size:0.75em;text-transform:uppercase;font-weight:700;line-height:1.5em;letter-spacing:1px;word-spacing:4px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#fff;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#ddd;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;position:relative;overflow:hidden;margin:0px;border:0px;padding:0px;}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  [class*='Col-'] {float: left;margin:0px;border:0px none #fff;padding:0px;}
+  .Col-1-0 {width:96%;margin:0px;border:0px none #333;padding:0% 2% 0% 2%;}
+  .Col-1-2:first-child {width:47%;margin:0px;border:0px none #333;padding:0% 1% 0% 2%;}
+  .Col-1-2:last-child  {width:47%;margin:0px;border:0px none #333;padding:0% 2% 0% 1%;}
+  .Col-1-4 {width:23%;padding:2% 1% 2% 1%;background-color:transparent;}
+  .Grid:after {content: "";display: table;clear: both;}
+  div.G-Grid {width:100%;margin:0px;border:0px none #333;padding:0px;}
+  [class*='GCol-'] {float: left;border:0px none #fff;padding:0px;}
+  .GCol-G1  {width:96%;margin:1% 2% 1% 2%;}
+  .GCol-G2  {width:96%;margin:1% 2% 1% 2%;}
+  div.G-Grid:after {content: "";display: table;clear: both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.BannerImg {margin:0px;border:0px none #fff;padding:0px 20px;}
+  img.QtrImg {max-width:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG1 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.ImgG2 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.StaffImg {max-width:100%;margin:0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.MapImg {width:579px;height:450px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:normal;}
+  a.SLinkOff {display:normal;}
+  a.MLink {display:none;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:14%;margin:0% 1% 0% 3%;border:0px;padding:0px;/*background-color:#89A;*/}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a > span {position:absolute;top:60%;left:0%;width:100%;height:30%;}
+  #StaffList > li > a > span > span:nth-child(1) {position:absolute;top:0%; left:0%;margin:0px;border:0px none #333;padding:4px 4px 2px 4px;font-size:0.8em;}
+  #StaffList > li > a > span > span:nth-child(2) {position:absolute;top:50%;left:0%;margin:0px;border:0px none #333;padding:2px 4px 4px 4px;font-size:0.8em;}
+  #StaffList > li > a > img {max-width:100%;max-height:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  a.SLinkOn > span {background-color:rgba(29,98,145,0.5);}
+  a.SLinkOn > span > span:nth-child(1) {color:#fff;font-weight:700;}
+  a.SLinkOn > span > span:nth-child(2) {color:#fff;font-weight:700;}
+  a.SLinkOn > img {-webkit-filter: grayscale(0);filter: grayscale(0);}
+  a.SLinkOff > span {background-color:rgba(0,0,0,0.8);}
+  a.SLinkOff > span > span:nth-child(1) {color:#eee;font-weight:400;}
+  a.SLinkOff > span > span:nth-child(2) {color:#eee;font-weight:400;}
+  a.SLinkOff > img {-webkit-filter: grayscale(1);filter: grayscale(1);}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:78%;margin:0% 3% 0% 1%;border:0px;padding:0px;background-color:#A98;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:absolute;top:0px;left:0px;width:90%;height:auto;margin:0px;border:0px none #000;padding:0%;overflow:hidden;display:none;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+  /* SHOW THE FIRST FADE CONTAINER BY DEFAULT */
+  div#StaffRight > div#Staff1 {display:block;} /* SHOW THE FIRST PANEL */
+
+
+  /**   C O N T A C T   P A G E   S E T T I N G S  mapsAccordion
+   ***************************************************************************************************************************************************/
+  div#Maps {width:579px;min-height:450px;margin:0px;border:0px none #000;padding:0px;overflow:hidden;background-color:#abd;}
+  #map {width:579px;height:450px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  table.AddressTable {width:340px;margin:10px 0px;border:0px none #fff;padding:0px;}
+  table.AddressTable th {margin:0px;border:0px none #fff;padding:0px;text-align:left;vertical-align:middle;}
+  table.AddressTable td {margin:0px;border:0px none #fff;padding:0px 20px 0px 0px;text-align:left;vertical-align:middle;}
+
+  /**   F A D E   C O N T A I N E R S
+   ***************************************************************************************************************************************************/
+  div#fade-container {display:none;}
+  #fc-container-1 {display:none;}
+  #fc-container-2 {display:none;}
+  #fc-container-3 {display:none;}
+  #fc-container-4 {display:none;}
+  #fc-container-5 {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {position:absolute;top:20px;right:20px;width:80px;height:30px;margin:0px;border:0px none #fff;padding:0px;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:0px 5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:0px 5px;float:left;}            /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  /**   T E S T I M O N I A L   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:14%;margin:0% 2% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;font-size:0.9em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;font-size:0.9em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(4) {position:relative;color:#000;font-size:0.9em;font-weight:700;}
+  div.TestLeft > div:nth-child(2) > img.RateStar {max-width:100%;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:82%;margin:0% 0% 0% 2%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+}
+/******************************************************************************************************  D E S K T O P  **************************************************/
+@media screen and (min-width: 1024px) {
+  /**   H E A D E R
+   ***************************************************************************************************************************************************/
+  div#Header {width:1024px;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background:transparent url('../Images/Banner.png') no-repeat;background-size:cover;}
+  div#HeaderImg {position:absolute;top:20px;left:20px;background:transparent url('../Images/PPT_Logo.png') no-repeat;width:160px;height:100px;margin:0px;border:0px none #0F0;padding:0px;}
+  div#HeaderText {position:absolute;top:20px;left:200px;width:389px;height:70px;margin:0px;border:0px none #0F0;padding:0px;color:#D5E4F3;font-family:Arial,Helvetica,sans-serif;font-size:14pt;font-style:italic;font-weight:700;}
+  div#HeaderText h1 {}
+
+  /**   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:161px;left:0px;width:1024px;height:61px;margin:0px;border:0px none #333;padding:10px 5px;background-clip:padding-box;background-color:rgba(29, 98, 145,0.5);z-index:99;}
+  ul#Nav {position:relative;top:5px;left:20px;margin:0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;height:30px;padding:0px;}
+  ul#Nav > li > a {height:30px;display:block;text-align:center;text-decoration:none;font-weight:700;font-size:1.0em;margin:0px 4px;border:1px solid #6688A2;border-radius:8px;padding:15px 35px 3px 35px;color:#FFF;background-color:#134A71;white-space:nowrap;}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(102, 136, 162, 0.5);color:#fff;}
+  div#NavWrap ul.hovered > li > a {background-color:rgba(102, 136, 162, 0.5);color:#fff;}
+  a.BtmNavLink {display: none;}
+
+  /**   F O O T E R  1D6291
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#134A71;color:#fff;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#fff;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;/*letter-spacing:1px;*/word-spacing:2px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#fff;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#ddd;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:1024px;position:relative;top:20px;overflow:hidden;margin-left:auto;margin-right:auto;margin-top:0px;margin-bottom:20px;border:0px;padding:0px;z-index:1;-webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.5);-moz-box-shadow:0px 0px 4px 4px rgba(0, 0, 0, 0.5);box-shadow:0px 0px 4px 4px rgba(0, 0, 0, 0.5);}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  .Col-1-0 {float:left;width:94%;margin:1% 3% 1% 3%;border:0px none #fff;padding:0px;}
+  .Col-1-2:first-child {float:left;width:46%;margin:1% 1% 1% 3%;border:0px none #fff;padding:0px;}
+  .Col-1-2:last-child {float:left;width:46%;margin:1% 3% 1% 1%;border:0px none #fff;padding:0px;}
+  .Col-1-4 {float:left;width:22%;margin:1% 1.5% 1% 1.5%;border:0px none #fff;padding:0px;}
+  .Col-1-4:first-child {float:left;width:22%;margin:1% 1% 1% 2%;border:0px none #fff;padding:0px;}
+  .Col-1-4:last-child {float:left;width:22%;margin:1% 2% 1% 1%;border:0px none #fff;padding:0px;}
+  .Col-1-6 {float:left;width:16.5%;}
+  .Col-G1  {float:left;width:62%;}
+  .Col-G2  {float:left;width:38%;}
+  .Grid:after {content: "";display: table;clear: both;}
+
+  div.G-Grid {width:100%;margin:0px;border:0px none #333;padding:0px;}
+  [class*='GCol-'] {float: left;border:0px none #fff;padding:0px;}
+  .GCol-G1  {width:58%;margin:2% 1% 2% 3%;}
+  .GCol-G2  {width:34%;margin:2% 3% 2% 1%;}
+  .G-Grid:after {content: "";display: table;clear: both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.BannerImg {margin:0px;border:0px none #fff;padding:0px 20px;}
+  img.QtrImg {max-width:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG1 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.ImgG2 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.MapImg {width:579px;height:450px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:normal;}
+  a.SLinkOff {display:normal;}
+  a.MLink {display:none;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:14%;margin:0% 1% 0% 3%;border:0px;padding:0px;/*background-color:#89A;*/}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a > span {position:absolute;top:60%;left:0%;width:100%;height:30%;}
+  #StaffList > li > a > span > span:nth-child(1) {position:absolute;top:0%; left:0%;margin:0px;border:0px none #333;padding:4px 4px 2px 4px;font-size:0.8em;}
+  #StaffList > li > a > span > span:nth-child(2) {position:absolute;top:50%;left:0%;margin:0px;border:0px none #333;padding:2px 4px 4px 4px;font-size:0.8em;}
+  #StaffList > li > a > img {max-width:100%;max-height:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  a.SLinkOn > span {background-color:rgba(29,98,145,0.5);}
+  a.SLinkOn > span > span:nth-child(1) {color:#fff;font-weight:700;}
+  a.SLinkOn > span > span:nth-child(2) {color:#fff;font-weight:700;}
+  a.SLinkOn > img {-webkit-filter: grayscale(0);filter: grayscale(0);}
+  a.SLinkOff > span {background-color:rgba(0,0,0,0.8);}
+  a.SLinkOff > span > span:nth-child(1) {color:#eee;font-weight:400;}
+  a.SLinkOff > span > span:nth-child(2) {color:#eee;font-weight:400;}
+  a.SLinkOff > img {-webkit-filter: grayscale(1);filter: grayscale(1);}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:78%;margin:0% 3% 0% 1%;border:0px;padding:0px;background-color:#A98;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:absolute;top:0px;left:0px;width:90%;height:auto;margin:0px;border:0px none #000;padding:0%;overflow:hidden;display:none;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+  /* SHOW THE FIRST FADE CONTAINER BY DEFAULT */
+  div#StaffRight > div#Staff1 {display:block;} /* SHOW THE FIRST PANEL */
+
+  /**   C O N T A C T   P A G E   S E T T I N G S  mapsAccordion
+   ***************************************************************************************************************************************************/
+  div#Maps {width:579px;min-height:450px;margin:0px;border:0px none #000;padding:0px;overflow:hidden;background-color:#abd;}
+  #map {width:579px;height:450px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  table.AddressTable {width:340px;margin:0px 0px;border:0px none #fff;padding:0px;}
+  table.AddressTable th {margin:0px;border:0px none #fff;padding:0px;text-align:left;vertical-align:middle;}
+  table.AddressTable td {margin:0px;border:0px none #fff;padding:0px 20px 0px 0px;text-align:left;vertical-align:middle;}
+
+  /**   F A D E   C O N T A I N E R S
+   ***************************************************************************************************************************************************/
+  div#fade-container {position:relative;margin:0px 20px;border:0px none #000;padding:0px;}
+  div#fade-container > div.container-content {position:absolute;top:0px;left:0px;margin:0px;border:0px none #000;padding:0px;background-color:#fff;max-width:100%;}
+  #fc-container-1 {display:none;}
+  #fc-container-2 {display:none;}
+  #fc-container-3 {display:none;}
+  #fc-container-4 {display:none;}
+  #fc-container-5 {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {position:absolute;top:20px;right:20px;width:80px;height:30px;margin:0px;border:0px none #fff;padding:0px;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:0px 5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:0px 5px;float:left;}            /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  /**   T E S T I M O N I A L   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:14%;margin:0% 2% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(4) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(2) > img.RateStar {max-width:100%;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:82%;margin:0% 0% 0% 2%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+}
+
+
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+/***********************************************************************************************************************************************************************************************************/
+
+
+
+html {overflow-y:scroll;}
+body {font:normal 16px 'Open Sans',Helvetica,Arial,sans-serif;margin:0px;border:0px;padding:0px;width:100%;background-color:#6688A2;}
+
+/**   A N C H O R S
+  ***************************************************************************************************************************************************/
+a:link    {text-decoration:none;color:#555;}
+a:visited {text-decoration:none;color:#555;}
+a:active  {text-decoration:none;color:#555;}
+a:hover   {text-decoration:underline;color:#000;}
+
+a.SiteLink:link    {text-decoration:underline;color:#555;}
+a.SiteLink:visited {text-decoration:underline;color:#555;}
+a.SiteLink:active  {text-decoration:underline;color:#555;}
+a.SiteLink:hover   {text-decoration:underline;color:#000;}
+
+/**   H E A D E R S   &   P A R A G R A P H
+  ***************************************************************************************************************************************************/
+h1,h2,h3,h4,h5,h6  {font-family:'Hind',Tahoma,Helvetica,Arial,sans-serif;margin:0px;border:0px none #000;padding:2% 0% 2% 0%;}
+h1  {font-size:1.7em;}
+h2  {font-size:1.5em;}
+h3  {font-size:1.3em;}
+h4  {font-size:1.2em;}
+h5  {font-size:1.1em;}
+h6  {font-size:1.0em;}
+p {font-size:1.0em;line-height:1.5em;font-weight:400;margin:0px;border:0px;padding:1% 2% 2% 0%;}
+
+table.AddressTable {width:340px;margin:0px 0px;border:0px none #fff;padding:0px;}
+table.AddressTable th {margin:0px;border:0px none #fff;padding:0px;text-align:left;vertical-align:middle;}
+table.AddressTable td {margin:0px;border:0px none #fff;padding:0px 20px 0px 0px;text-align:left;vertical-align:middle;}
+
+/******************************************************************************************************  L O W  -  R E S  ************************************************/
+@media screen and (max-width:639px) {
+  /**   H E A D E R
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%;height:165px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-color:#357CB4;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText {position:absolute;top:20px;left:240px;margin:0px;border:0px none #0F0;padding:0px;color:#D5E4F3;background-color:transparent;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:0.8em;font-style:italic;font-weight:700;}
+  svg {position:absolute;top:20px;left:20px;width:180px;height:75px;margin:0px;border:0px none #0F0;padding:0px;}
+  
+  /**   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {position:absolute;top:130px;left:20px;margin:0px;border:0px;padding:0px;}
+  div#NavLink a.to_nav {height:2.4em;font-size:1.0em;font-weight:700;line-height:1.5em;text-decoration:none;text-transform:uppercase;letter-spacing:0.125em;color:#fff;background-color:#000;margin:0em;border:0.125em solid #fff;padding:0.125em 0.625em;-webkit-border-radius:0.1875em;-moz-border-radius:0.1875em;border-radius:0.1875em;}
+  div#NavLink a.to_nav:hover, a.to_nav:focus {color: #1c1c1c;background: #ccc;}
+  div#NavWrap {position:relative;width:100%;margin:0em;border:0em none #fff;padding:0em;background-color:#fff;}
+
+  ul#Nav {width:100%;height:100%;margin:0em;border:0em none #fff;padding:0em;list-style:none;}
+  ul#Nav > li {display:block;width:100%;margin:0em;border:0em none #ACE;padding:0em;text-align:center;}
+  ul#Nav > li > a {
+    display:block;width:100%;height:2.0em;text-decoration:none;font-size:1.5em;font-weight:700;
+    color:#FFF;background-color:#357CB4;
+    margin:0em;border-top:0em none #fff;border-right:0em none #fff;border-bottom:0.0625em solid #fff;border-left:0em none #fff;padding:0em;}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:#000;color:#fff;}
+  #NavWrap ul.hovered > li > a {background-color:#000;color:#fff;}
+  a.BtmNavLink {display:block;}
+  a.BtmNavLink {margin:0px;border:0px;padding:1% 2% 5% 2%;}
+  a.BtmNavLink {font-size:0.9em;font-weight:700;}
+  a.BtmNavLink:link, a.BtmNavLink:visited {text-decoration:none;}
+  a.BtmNavLink:hover, a.BtmNavLink:active {text-decoration:none;}
+
+  
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {display:none;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;position:relative;overflow:hidden;margin:0px;border:0px none #333;padding:0px;z-index:1;}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:1% 2%;min-height:1000px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  .Col-1-0 {float: left;width:96%;margin:0px;border:0px none #333;padding:0% 2%;}
+  .Col-1-2:first-child {float: left;width:96%;margin:0px;border:0px none #333;padding:0% 2%;}
+  .Col-1-2:last-child  {float: left;width:96%;margin:0px;border:0px none #333;padding:0% 2%;}
+  .Col-1-4 {float: left;width:46%;padding:1% 2%;background-color:transparent;}
+  div.Grid:after {content: "";display: table;clear: both;}
+
+  div.G-Grid {width:100%;margin:0px;border:0px none #333;padding:0px;}
+  div.GCol-G1  {float: left;width:96%;margin:1% 2% 1% 2%;border:0px none #fff;padding:0px;}
+  div.GCol-G2  {float: left;width:96%;margin:1% 2% 1% 2%;border:0px none #fff;padding:0px;}
+  div.G-Grid:after {content: "";display: table;clear: both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.QtrImg {max-width:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG1 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.ImgG2 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.StaffImg {max-width:100%;margin:0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:none;}
+  a.SLinkOff {display:none;}
+  a.MLink {display:normal;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:96%;margin:0% 2% 0% 2%;border:0px;padding:0px;}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a.MLink {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a.MLink:link, #StaffList > li > a.MLink:visited {text-decoration:none;}
+  #StaffList > li > a.MLink:hover, #StaffList > li > a.MLink:active {text-decoration:none;}
+
+  #StaffList > li > a.MLink > img {max-width:20%;max-height:20%;margin:0% 0% 0% 0%;border:0px solid transparent;border-radius:8px;padding:0% 0% 0% 0%;}
+
+  #StaffList > li > a.MLink > span {display:inline-block;width:80%;position:relative;bottom:15px;background-color:#1D6291;margin:0% 0% 1% 0%;border:0px solid transparent;
+                                    border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;padding:0% 0% 0% 0%;}
+
+  #StaffList > li > a.MLink > span > span:nth-child(1) {position:relative;margin:0px;border:0px none #333;padding:1% 2% 0% 3%;font-size:1.1em;font-weight:700;color:#fff;display:block;}
+  #StaffList > li > a.MLink > span > span:nth-child(2) {position:relative;margin:0px;border:0px none #333;padding:0% 2% 1% 3%;font-size:1.1em;font-weight:700;color:#fff;display:block;}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:96%;margin:0% 2% 0% 2%;border:0px;padding:0px;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:relative;width:90%;height:auto;margin:0% 0% 10% 0%;border:0px none #000;padding:0%;display:block;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+
+
+  /**   C O N T A C T   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  img.DirMap {margin:0px auto;max-width:100%;}
+  #map {width:100%;height:450px;margin:0px;border:0px none #333;padding:0px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  div#MapsAccordion {width:96%;margin:0px;border:0px none #000;padding:0% 2%;}
+  
+  /**   F A D E   C O N T A I N E R S
+   ***************************************************************************************************************************************************/
+  div#fade-container {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-GPlus    {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* GPLUS        */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  /**   T E S T I M O N I A L   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:100%;margin:0% 0% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;float:left;margin:2% 2%;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(4) {position:relative;color:#000;font-size:1.0em;font-weight:700;}
+  div.TestLeft > div:nth-child(2) > img.RateStar {max-width:100%;}
+  div.TestLeft:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:100%;margin:0% 0% 0% 0%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+
+}
+/******************************************************************************************************  F I V E  ********************************************************/
+@media screen and (min-width:640px) and (max-width:768px) {
+  /**   H E A D E R
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%;height:165px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-color:#357CB4;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText {position:absolute;top:20px;left:280px;width:389px;height:70px;margin:0px;border:0px none #0F0;padding:0px;color:#D5E4F3;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:0.9em;font-style:italic;font-weight:700;}
+  svg {position:absolute;top:20px;left:20px;width:240px;height:100px;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /**   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:130px;left:20px;z-index:99;}
+  ul#Nav {position:relative;top:0px;left:0px;margin:0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;padding:0px;text-align:center;}
+  ul#Nav > li > a {height:20px;display:block;text-decoration:none;font-weight:700;font-size:0.75em;margin:1px;border:1px solid #256CA4;border-radius:4px;padding:7px 20px 1px 20px;
+                   color:#FFF;background-color:#357CB4;}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+  div#NavWrap ul.hovered > li > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+  a.BtmNavLink {display: none;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#357CB4;color:#fff;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#fff;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;letter-spacing:1px;word-spacing:10px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#fff;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#ddd;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;position:relative;overflow:hidden;margin:0px;border:0px none #333;padding:0px;z-index:1;}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:1% 2%;min-height:1000px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  .Col-1-0 {float:left;width:96%;margin:0px;border:0px none #333;padding:0% 2% 0% 2%;}
+  .Col-1-2:first-child {float:left;width:47%;margin:0px;border:0px none #333;padding:0% 1% 0% 2%;}
+  .Col-1-2:last-child  {float:left;width:47%;margin:0px;border:0px none #333;padding:0% 2% 0% 1%;}
+  .Col-1-4 {float:left;width:23%;padding:2% 1% 2% 1%;background-color:transparent;}
+  .Grid:after {content:"";display:table;clear:both;}
+
+  div.G-Grid {width:100%;margin:0px;border:0px none #333;padding:0px;}
+  div.GCol-G1  {float:left;width:96%;margin:1% 2% 1% 2%;border:0px none #fff;padding:0px;}
+  div.GCol-G2  {float: left;width:96%;margin:1% 2% 1% 2%;border:0px none #fff;padding:0px;}
+  div.G-Grid:after {content: "";display: table;clear: both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.QtrImg {max-width:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG1 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.ImgG2 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.StaffImg {max-width:100%;margin:0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:normal;}
+  a.SLinkOff {display:normal;}
+  a.MLink {display:none;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:14%;margin:0% 1% 0% 3%;border:0px;padding:0px;/*background-color:#89A;*/}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a > span {position:absolute;top:60%;left:0%;width:100%;height:30%;}
+  #StaffList > li > a > span > span:nth-child(1) {position:absolute;top:0%; left:0%;margin:0px;border:0px none #333;padding:4px 4px 2px 4px;font-size:0.8em;}
+  #StaffList > li > a > span > span:nth-child(2) {position:absolute;top:50%;left:0%;margin:0px;border:0px none #333;padding:2px 4px 4px 4px;font-size:0.8em;}
+  #StaffList > li > a > img {max-width:100%;max-height:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  a.SLinkOn > span {background-color:rgba(29,98,145,0.5);}
+  a.SLinkOn > span > span:nth-child(1) {color:#fff;font-weight:700;}
+  a.SLinkOn > span > span:nth-child(2) {color:#fff;font-weight:700;}
+  a.SLinkOn > img {-webkit-filter: grayscale(0);filter: grayscale(0);}
+  a.SLinkOff > span {background-color:rgba(0,0,0,0.8);}
+  a.SLinkOff > span > span:nth-child(1) {color:#eee;font-weight:400;}
+  a.SLinkOff > span > span:nth-child(2) {color:#eee;font-weight:400;}
+  a.SLinkOff > img {-webkit-filter: grayscale(1);filter: grayscale(1);}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:78%;margin:0% 3% 0% 1%;border:0px;padding:0px;background-color:#A98;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:absolute;top:0px;left:0px;width:90%;height:auto;margin:0px;border:0px none #000;padding:0%;overflow:hidden;display:none;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+  /* SHOW THE FIRST FADE CONTAINER BY DEFAULT */
+  div#StaffRight > div#Staff1 {display:block;} /* SHOW THE FIRST PANEL */
+
+  /**   C O N T A C T   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  img.DirMap {margin:0px auto;}
+  #map {width:579px;height:450px;margin:0px;border:0px none #333;padding:0px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  div#MapsAccordion {width:579px;margin:0px;border:0px none #000;padding:0px;}
+
+  /**   F A D E   C O N T A I N E R S
+   ***************************************************************************************************************************************************/
+  div#fade-container {display:none;}
+  #fc-container-1 {display:none;}
+  #fc-container-2 {display:none;}
+  #fc-container-3 {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  /**   T E S T I M O N I A L   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:14%;margin:0% 2% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;font-size:0.8em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;font-size:0.8em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(4) {position:relative;color:#000;font-size:0.8em;font-weight:700;}
+  div.TestLeft > div:nth-child(2) > img.RateStar {max-width:100%;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:82%;margin:0% 0% 0% 2%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+
+}
+/******************************************************************************************************  S I X  **********************************************************/
+@media screen and (min-width:769px) and (max-width:1024px) {
+  /**   H E A D E R
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%;height:165px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-color:#357CB4;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText {position:absolute;top:20px;left:280px;width:389px;height:70px;margin:0px;border:0px none #0F0;padding:0px;color:#D5E4F3;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:0.9em;font-style:italic;font-weight:700;}
+  svg {position:absolute;top:20px;left:20px;width:240px;height:100px;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /**   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:130px;left:20px;z-index:99;}
+  ul#Nav {position:relative;top:0px;left:0px;margin:0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;padding:0px;text-align:center;}
+  ul#Nav > li > a {height:20px;display:block;text-decoration:none;font-weight:700;font-size:0.75em;margin:1px;border:1px solid #256CA4;border-radius:4px;padding:7px 20px 1px 20px;
+                   color:#FFF;background-color:#357CB4;}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+  div#NavWrap ul.hovered > li > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+  a.BtmNavLink {display: none;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#357CB4;color:#fff;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#fff;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;letter-spacing:1px;word-spacing:10px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#fff;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#ddd;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;position:relative;overflow:hidden;margin:0px;border:0px none #333;padding:0px;z-index:1;}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:1% 2%;min-height:1000px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  .Col-1-0 {float:left;width:96%;margin:0px;border:0px none #333;padding:0% 2% 0% 2%;}
+  .Col-1-2:first-child {float:left;width:47%;margin:0px;border:0px none #333;padding:0% 1% 0% 2%;}
+  .Col-1-2:last-child  {float:left;width:47%;margin:0px;border:0px none #333;padding:0% 2% 0% 1%;}
+  .Col-1-4 {float:left;width:23%;padding:2% 1% 2% 1%;background-color:transparent;}
+  .Grid:after {content:"";display:table;clear:both;}
+
+  div.G-Grid {width:100%;margin:0px;border:0px none #333;padding:0px;}
+  div.GCol-G1  {float:left;width:96%;margin:1% 2% 1% 2%;border:0px none #fff;padding:0px;}
+  div.GCol-G2  {float: left;width:96%;margin:1% 2% 1% 2%;border:0px none #fff;padding:0px;}
+  div.G-Grid:after {content: "";display: table;clear: both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.QtrImg {max-width:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG1 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.ImgG2 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.StaffImg {max-width:100%;margin:0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:normal;}
+  a.SLinkOff {display:normal;}
+  a.MLink {display:none;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:14%;margin:0% 1% 0% 3%;border:0px;padding:0px;/*background-color:#89A;*/}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a > span {position:absolute;top:60%;left:0%;width:100%;height:30%;}
+  #StaffList > li > a > span > span:nth-child(1) {position:absolute;top:0%; left:0%;margin:0px;border:0px none #333;padding:4px 4px 2px 4px;font-size:0.8em;}
+  #StaffList > li > a > span > span:nth-child(2) {position:absolute;top:50%;left:0%;margin:0px;border:0px none #333;padding:2px 4px 4px 4px;font-size:0.8em;}
+  #StaffList > li > a > img {max-width:100%;max-height:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  a.SLinkOn > span {background-color:rgba(29,98,145,0.5);}
+  a.SLinkOn > span > span:nth-child(1) {color:#fff;font-weight:700;}
+  a.SLinkOn > span > span:nth-child(2) {color:#fff;font-weight:700;}
+  a.SLinkOn > img {-webkit-filter: grayscale(0);filter: grayscale(0);}
+  a.SLinkOff > span {background-color:rgba(0,0,0,0.8);}
+  a.SLinkOff > span > span:nth-child(1) {color:#eee;font-weight:400;}
+  a.SLinkOff > span > span:nth-child(2) {color:#eee;font-weight:400;}
+  a.SLinkOff > img {-webkit-filter: grayscale(1);filter: grayscale(1);}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:78%;margin:0% 3% 0% 1%;border:0px;padding:0px;background-color:#A98;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:absolute;top:0px;left:0px;width:90%;height:auto;margin:0px;border:0px none #000;padding:0%;overflow:hidden;display:none;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+  /* SHOW THE FIRST FADE CONTAINER BY DEFAULT */
+  div#StaffRight > div#Staff1 {display:block;} /* SHOW THE FIRST PANEL */
+
+  /**   C O N T A C T   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  img.DirMap {margin:0px auto;}
+  #map {width:579px;height:450px;margin:0px;border:0px none #333;padding:0px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  div#MapsAccordion {width:579px;margin:0px;border:0px none #000;padding:0px;}
+
+  /**   F A D E   C O N T A I N E R S
+   ***************************************************************************************************************************************************/
+  div#fade-container {display:none;}
+  #fc-container-1 {display:none;}
+  #fc-container-2 {display:none;}
+  #fc-container-3 {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  /**   T E S T I M O N I A L   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:14%;margin:0% 2% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;font-size:0.9em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;font-size:0.9em;font-weight:700;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(4) {position:relative;color:#000;font-size:0.9em;font-weight:700;}
+  div.TestLeft > div:nth-child(2) > img.RateStar {max-width:100%;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:82%;margin:0% 0% 0% 2%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+
+}
+/******************************************************************************************************  D E S K T O P  **************************************************/
+@media screen and (min-width: 1025px) {
+  /**   H E A D E R     
+   ***************************************************************************************************************************************************/
+  div#Header {width:1024px;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background:transparent url('../Images/PTBannerImg09.png') no-repeat;background-size:cover;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText {position:absolute;top:20px;left:280px;width:389px;height:70px;margin:0px;border:0px none #0F0;padding:0px;color:#D5E4F3;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:1.0em;font-style:italic;font-weight:700;}
+  svg {position:absolute;top:20px;left:20px;width:240px;height:100px;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /**   N A V I G A T I O N   position:absolute;top:172px;left:20px;z-index:99;    134A71
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {
+
+    position:absolute;
+    top:161px;
+    left:0px;width:100%;
+    height:61px;
+    margin:0px;border:0px none #333;padding:10px 5px;
+    background-clip:padding-box;
+    background-color:rgba(33, 104, 160,0.8);z-index:99;
+
+
+  }
+  ul#Nav {position:relative;top:5px;left:20px;margin:0px 0px 0px 0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;height:30px;padding:0px;text-align:center;}
+  ul#Nav > li > a {height:30px;display:block;text-decoration:none;font-weight:700;font-size:1.0em;
+                   margin:0px 4px;border:1px solid #256CA4;border-radius:8px;padding:15px 30px 3px 30px;color:#FFF;background-color:#357CB4;/*background-color:rgba(53,124,180,0.9);*/}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;} /* 53,124,180  */
+  div#NavWrap ul.hovered > li > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+  a.BtmNavLink {display: none;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#357CB4;color:#fff;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#fff;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;/*letter-spacing:1px;*/word-spacing:2px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#fff;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#ddd;}
+
+  /**   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:1024px;position:relative;top:20px;overflow:hidden;margin-left:auto;margin-right:auto;margin-top:0px;margin-bottom:20px;border:0px;padding:0px;z-index:1;-webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.5);-moz-box-shadow:    0px 0px 4px 4px rgba(0, 0, 0, 0.5);box-shadow:         0px 0px 4px 4px rgba(0, 0, 0, 0.5);}
+
+  /**   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;min-height:1000px;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  .Col-1-0             {float:left;width:96%;margin:0px;border:0px none #333;padding:1% 2% 1% 2%;}
+  .Col-1-2:first-child {float:left;width:47%;margin:0px;border:0px none #333;padding:1% 1% 1% 2%;}
+  .Col-1-2:last-child  {float:left;width:47%;margin:0px;border:0px none #333;padding:1% 2% 1% 1%;}
+  .Col-1-4:first-child {float:left;width:22%;margin:0px;border:0px none #333;padding:2% 1% 2% 2%;background-color:transparent;}
+  .Col-1-4             {float:left;width:22%;margin:0px;border:0px none #333;padding:2% 1.5% 2% 1.5%;background-color:transparent;}
+  .Col-1-4:last-child  {float:left;width:22%;margin:0px;border:0px none #333;padding:2% 2% 2% 1%;background-color:transparent;}
+  .Grid:after {content:"";display:table;clear:both;}
+
+  div.G-Grid {width:100%;margin:0%;border:0px none #333;padding:0%;background-color:transparent;}
+  div.GCol-G1  {float:left;width:58%;margin:0px;border:0px none #333;padding:2% 1% 2% 3%;background-color:transparent;}
+  div.GCol-G2  {float:left;width:34%;margin:0px;border:0px none #333;padding:2% 3% 2% 1%;background-color:transparent;}
+  div.G-Grid:after {content:"";display: table;clear: both;}
+
+  /**   I M A G E S
+   ***************************************************************************************************************************************************/
+  img.QtrImg {max-width:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  img.ImgG1 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.ImgG2 {max-width:100%;margin:0px 0px 10px 0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+  img.StaffImg {max-width:100%;margin:0px;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  /**   S T A F F   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  a.SLinkOn {display:normal;}
+  a.SLinkOff {display:normal;}
+  a.MLink {display:none;}
+  /*************************************************************************/
+  /* STAFF LEFT COLUMN */
+  /*************************************************************************/
+  div#StaffLeft {float:left;width:14%;margin:0% 1% 0% 3%;border:0px;padding:0px;/*background-color:#89A;*/}
+  /* STAFF LIST ON LEFT SIDE */
+  #StaffList {list-style:none;margin:0px;border:0px;padding:0px;width:100%;}
+  #StaffList li {position:relative;}
+  #StaffList > li > a {margin:0px;border:0px;padding:0px;}
+  #StaffList > li > a > span {position:absolute;top:60%;left:0%;width:100%;height:30%;}
+  #StaffList > li > a > span > span:nth-child(1) {position:absolute;top:0%; left:0%;margin:0px;border:0px none #333;padding:4px 4px 2px 4px;font-size:0.8em;}
+  #StaffList > li > a > span > span:nth-child(2) {position:absolute;top:50%;left:0%;margin:0px;border:0px none #333;padding:2px 4px 4px 4px;font-size:0.8em;}
+  #StaffList > li > a > img {max-width:100%;max-height:100%;margin:0%;border:0px solid transparent;border-radius:8px;padding:0%;}
+  a.SLinkOn > span {background-color:rgba(29,98,145,0.5);}
+  a.SLinkOn > span > span:nth-child(1) {color:#fff;font-weight:700;}
+  a.SLinkOn > span > span:nth-child(2) {color:#fff;font-weight:700;}
+  a.SLinkOn > img {-webkit-filter: grayscale(0);filter: grayscale(0);}
+  a.SLinkOff > span {background-color:rgba(0,0,0,0.8);}
+  a.SLinkOff > span > span:nth-child(1) {color:#eee;font-weight:400;}
+  a.SLinkOff > span > span:nth-child(2) {color:#eee;font-weight:400;}
+  a.SLinkOff > img {-webkit-filter: grayscale(1);filter: grayscale(1);}
+  /*************************************************************************/
+  /* STAFF RIGHT COLUMN */
+  /*************************************************************************/
+  div#StaffRight {position:relative;float:left;width:78%;margin:0% 3% 0% 1%;border:0px;padding:0px;background-color:#A98;}
+  /* FADE CONTAINER ON THE RIGHT */
+  div.fadeStaff {position:absolute;top:0px;left:0px;width:90%;height:auto;margin:0px;border:0px none #000;padding:0%;overflow:hidden;display:none;}
+  div.fadeStaff > img {width:40%;height:40%;float:right;margin:0% 0% 1% 3%;border:0px solid transparent;border-radius:8px;padding:0px;}
+
+  div.fadeStaff > div {color:#fff;background-color:#1D6291;
+                       margin:0% 0% 5% 0%;border:0px solid transparent;
+                       border-bottom-left-radius:0px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-top-right-radius:8px;
+                       padding:0% 0% 0% 3%;}
+  div.fadeStaff > div > h3:nth-child(1) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:1% 0% 0% 0%;}
+  div.fadeStaff > div > h3:nth-child(2) {color:#fff;margin:0% 0% 0% 0%;border:0px none #333;padding:0% 0% 1% 0%;}
+
+  div.fadeStaff > p {margin:0px 10px 10px 10px;border:0px none #333;padding:0px;}
+  /* SHOW THE FIRST FADE CONTAINER BY DEFAULT */
+  div#StaffRight > div#Staff1 {display:block;} /* SHOW THE FIRST PANEL */
+  
+  /**   C O N T A C T   P A G E   S E T T I N G S
+   ***************************************************************************************************************************************************/
+  #map {width:579px;height:450px;margin:0px;border:0px none #333;padding:0px;}
+  #save-widget {width:300px;box-shadow:rgba(0,0,0,0.298039) 0px 1px 4px -1px;background-color:white;padding:10px;font-family:Roboto,Arial;font-size:13px;margin:15px;}
+  img.DirMap {margin:0px auto;}
+  div#MapsAccordion {width:579px;margin:0px;border:0px none #000;padding:0px;}
+
+  /**   F A D E   C O N T A I N E R S    25px 20px 20px 20px
+   ***************************************************************************************************************************************************/
+  div#fade-container {position:relative;margin:0px;border:0px none #000;padding:0px;}
+  div#fade-container > div.container-content {position:absolute;top:0px;left:0px;margin:0px;border:0px none #000;padding:0px;background-color:#fff;max-width:100%;}
+  #fc-container-1 {display:none;}
+  #fc-container-2 {display:none;}
+  #fc-container-3 {display:none;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {position:absolute;top:20px;right:20px;width:80px;height:40px;margin:0px;border:0px none #fff;padding:0px;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+
+  /**   T E S T I M O N I A L S
+   ***************************************************************************************************************************************************/
+  /*************************************************************************/
+  /*  TESTIMONIAL WRAP                                                     */
+  /*************************************************************************/
+  div.Testimonials {width:100%;margin:0px;border:0px none #000;padding:0px 0px 20px 0px;position:relative;}
+  div.Testimonials > div.TestWrap {width:94%;margin:0px;padding:0% 3% 5% 3%;}
+  div.Testimonials > div.TestWrap {border:0px none #333;border-top:0px none #000;}
+  div.Testimonials > div.TestWrap:first-child {border:0px none #333;border-top:0px none #000;}
+  div.TestWrap:after {content:"";display:table;clear:both;}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestLeft {float:left;width:14%;margin:0% 2% 0% 0%;border:0px;padding:0px;position:relative;}
+  div.TestLeft > div:nth-child(1) > img {position:relative;max-width:100%;border:1px solid transparent;border-radius:8px;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(1) {position:relative;color:#000;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(2) {position:relative;color:#000;}
+  div.TestLeft > div:nth-child(1) > div:nth-child(3) {position:relative;color:#000;}
+  div.TestLeft > div:nth-child(2) {}
+  /*************************************************************************/
+  /*  TESTIMONIAL LEFT                                                     */
+  /*************************************************************************/
+  div.TestRight {float:left;width:82%;margin:0% 0% 0% 2%;padding:0px;position:relative;display:block;}
+  div.TestRight {border:0px none #000;border-top:4px solid #1D6291;}
+  div.TestRight p {margin:0%;border:0px none #000;padding:5px;position:relative;display:block;}
+
+
+}
+
+

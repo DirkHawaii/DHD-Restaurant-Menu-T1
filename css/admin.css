@@ -1,0 +1,13 @@
+/* ADMIN CSS */
+
+.contact-form > table {
+  margin:0;border:1px solid #000;padding:0;
+}
+.contact-form > table th {
+  margin:0;border:0;padding:0;text-align:left;
+}
+.contact-form > table td {
+  margin:0;border:0;padding:0;text-align:left;
+}
+
+

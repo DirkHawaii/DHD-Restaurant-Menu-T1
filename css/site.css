@@ -1,0 +1,397 @@
+/* Site.css */
+html {overflow-y:scroll;}
+body {width:100%;font:normal 16px 'Open Sans',Helvetica,Arial,sans-serif;margin:0px;border:0px;padding:0px;
+  background-color:#000;
+  background:-webkit-linear-gradient(top,#394257 0%,#B6BED1 100%);
+  background:     -o-linear-gradient(top,#394257 0%,#B6BED1 100%);
+  background:   -moz-linear-gradient(top,#394257 0%,#B6BED1 100%);
+  background:        linear-gradient(top,#394257 0%,#B6BED1 100%);
+  background-repeat:no-repeat;background-size:cover;background-attachment:fixed;
+}
+
+*{margin:0px;border:0px none #333;padding:0px;-webkit-appearance:none;}
+*:focus {outline:none;}
+
+input[type='checkbox'] {border:1px solid #333;border-radius:2px;margin:10px;padding:4px;}
+
+/**   A N C H O R S   H E A D I N G S   P A R A G R A P H
+  ***************************************************************************************************************************************************/
+a:link    {text-decoration:none;color:#555;font-weight:700;}
+a:visited {text-decoration:none;color:#555;font-weight:700;}
+a:hover   {text-decoration:underline;color:#000;font-weight:700;}
+a:active  {text-decoration:none;color:#555;font-weight:700;}
+p {font-size:1.0em;line-height:1.5em;font-weight:400;padding:1% 3% 2% 3%;}
+h1,h2,h3,h4,h5,h6 {padding:1% 3% 2% 3%;}
+
+div#MessageCentered {position:relative;width:100%;text-align:center;color:#345;margin:0px;border:0px none #000;padding:10px 0px;}
+
+/***   F O R M   F I E L D S
+ *************************************************************************************************************************/
+.FormInput1  {position:relative;margin:1% 0%;border:1px solid #000;padding:1%;}
+.FormInputPH {position:relative;margin:1% 0%;border:1px solid #000;border-radius: 3px 3px 3px 3px;padding:1%;width:200px;}
+.FormInputEM {position:relative;margin:1% 0%;border:1px solid #000;border-radius: 3px 3px 3px 3px;padding:1%;width:200px;}
+.FormInputDL {position:relative;margin:1% 0%;border:1px solid #000;border-radius: 3px 3px 3px 3px;padding:1%;}
+.FormInputTA {position:relative;margin:1% 0%;border:1px solid #000;border-radius: 3px 3px 3px 3px;padding:1%;width:350px;height:200px;overflow-y:scroll;}
+.FormInputAI {position:relative;margin:1% 0%;border:1px solid #000;border-radius: 3px 3px 3px 3px;padding:1%;width:350px;height:100px;overflow-y:scroll;}
+ul.FormInputUL {position:relative;margin:0% 3%;border:0px none #0F0;padding:1%;list-style:disc;list-style-position:outside;}
+ul.FormInputUL > li {margin:0% 0%;border:0px none #0F0;padding:1% 2%;}
+
+/******************************************************************************************************  L O W  -  R E S  ************************************************/
+@media screen and (max-width:639px) {
+  /**   H E I G H T S
+   ***************************************************************************************************************************************************/
+  html,body {height:100%;min-height:400vh;}
+  div#PageWrap {min-height:1000px;}
+  div#MainWrap {min-height:1000px;}
+  div.NewsletterW {height:100%;}
+
+  /***   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;height:100%;position:relative;top:0px;overflow:hidden;margin:0px auto;border:0px;padding:0%;z-index:1;}
+
+  /***   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /***   H E A D E R     
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%px;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-image:url("../img/AlchemyBanner.png");background-repeat:no-repeat;background-position:left top;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText  {position:absolute;top:130px;left:20px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.0em;font-style:italic;font-weight:700;}
+  div#HeadText2 {position:absolute;top:80px; left:20px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.2em;font-style:none;font-weight:900;}
+  img#logo {display:none;}
+
+  /**   N A V I G A T I O N   365872
+   ************************************************************************************************************************************************/
+  div#NavLink {position:absolute;top:10px;right:20px;margin:0px;border:0px none #333;padding:0%;}
+  div#NavLink a.to_nav {text-decoration:none;background-color:#354157;color:#FFF;margin:0px;border:1px solid transparent;border-radius:5px;padding:5px 10px;}
+
+  div#NavLink a.to_nav:link, div#NavLink a.to_nav:visited {color:#FFFFFF;background-color:#354157;}
+  div#NavLink a.to_nav:hover, div#NavLink a.to_nav:active {color:#000000;background-color:#ABABAB;}
+
+  div#NavWrap {width:100%;margin:0px;border:0px none #fff;padding:0%;}
+  ul#Nav {width:100%;list-style:none;font-size:16px;font-weight:700;font-family:'Roboto','Trebuchet MS';margin:0px;border:0px none #333;padding:0px;}
+  ul#Nav > li {display:block;width:100%;margin:0%;border:0px none #333;padding:0%;text-align:center;vertical-align:middle;} 
+  ul#Nav > li > a,
+  ul#Nav > li > a.ddBtn {display:block;width:100%;font-size:1.0em;text-decoration:none;background-color:#6688A2;color:#F7F5E6;margin:0px;border-top:0px none #fff;border-right:0px none #fff;border-bottom:1px solid #fff;border-left:0px none #fff;padding:3.5% 0%;}
+  ul#Nav li a:hover {color:#F7F5E6;background-color:#555;}
+
+  /***   A N C H O R   B U T T O N
+   *************************************************************************************************************************/
+  a.aBtn {width:400px;margin:10px;border:1px solid #777;border-radius:6px;padding:10px 30px;font-weight:700;font-size:1.1em;text-decoration:none;text-align:center;verical-align:middle;background-color:#000;color:#fff;display:block;}
+  a.aBtn:link, a.aBtn:visited {background-color:#354157;color:#FFFFFF;}
+  a.aBtn:hover, a.aBtn:active {background-color:#B7C1DB;color:#354157;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#fff;color:#555;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;/*letter-spacing:1px;*/word-spacing:2px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#555;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#555;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  div.Grid:after {content:"";display:table;clear:both;}
+  .Col10    {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col10C   {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;text-align:center;}
+  .Col12    {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col13    {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col13Img {margin:0px auto;border:0px solid transparent;border-radius:5px;padding:0%;display:block;max-width:100%;}
+  .Col13 > h2 {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+  .Col13 > p  {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+  /***   G O L D E N   R A T I O   C O L U M N   O N E   =   62%   T O T A L   ***/
+  div.col1Gold   {width:100%;float:left;color:#333;}
+  /***   G O L D E N   R A T I O   C O L U M N   T W O   =   38%   T O T A L   ***/
+  div.col2Gold   {width:100%;float:left;overflow:hidden;}
+  div.Normal1 {width:94%;margin:0px;border:0px none #333;padding:2% 3% 2% 3%;background-color:#fff;color:#333;}
+  
+  div#Sponsers {width:100%;margin:0px;border:0px none #333;padding:2% 0% 2% 0%;background-color:#transparent;color:#333;}
+  #SiteLinkW {background-color:transparent;color:#333;}
+  .SiteLink {float:left;width:94%;height:150px;margin:0px;border:0px none #333;padding:2% 3%;background-color:transparent;}
+  .SiteLink > a {text-decoration:none;font-weight:700;font-size:1.2em;font-family:'Vavela Round',Tahoma,Helvetica,Arial,sans-serif;}
+  .SiteLink > a:link, .SiteLink > a:visited {color:#394257;}
+  .SiteLink > a:hover, .SiteLink > a:active {color:#333333;}
+  .SiteLink > p {padding:2% 3%;font-weight:400;font-size:0.8em;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  .NoPrint {display:normal;}
+}
+/******************************************************************************************************  F I V E  ********************************************************/
+@media screen and (min-width:640px) and (max-width:939px) {
+  /**   H E I G H T S
+   ***************************************************************************************************************************************************/
+  html,body {height:100%;min-height:400vh;}
+  div#PageWrap {min-height:2000px;}
+  div#MainWrap {min-height:2000px;}
+  div.NewsletterW {height:100%;}
+
+  /***   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;height:100%;position:relative;top:0px;overflow:hidden;margin:0px auto;border:0px;padding:0%;z-index:1;}
+
+  /***   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /***   H E A D E R     
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%px;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-image:url("../img/AlchemyBanner.png");background-repeat:no-repeat;background-position:left top;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText {position:absolute;top:95px;left:340px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.0em;font-style:italic;font-weight:700;}
+  div#HeadText2 {position:absolute;top:90px;left:20px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.2em;font-style:none;font-weight:900;}
+  img#logo {display:none;}
+
+  /***   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:160px;left:0px;width:100%;height:61px;margin:0px;border:0px none #333;padding:10px 5px;background-clip:padding-box;background-color:rgba(125,125,125,0.2);z-index:99;}
+  ul#Nav {position:relative;top:5px;left:20px;margin:0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;height:30px;padding:0px;text-align:center;}
+  ul#Nav > li > a {height:30px;display:block;text-decoration:none;font-weight:700;font-size:1.0em;margin:0px 4px;border:1px solid #256CA4;border-radius:8px;padding:15px 15px 3px 15px;color:#FFF;background-color:rgba(53,124,180,0.4);}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;} /* 53,124,180  */
+  div#NavWrap ul.hovered > li > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+
+  /***   A N C H O R   B U T T O N
+   *************************************************************************************************************************/
+  a.aBtn {width:400px;margin:10px;border:1px solid #777;border-radius:6px;padding:10px 30px;font-weight:700;font-size:1.1em;text-decoration:none;text-align:center;verical-align:middle;background-color:#000;color:#fff;display:block;}
+  a.aBtn:link, a.aBtn:visited {background-color:#354157;color:#FFFFFF;}
+  a.aBtn:hover, a.aBtn:active {background-color:#B7C1DB;color:#354157;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#fff;color:#555;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;/*letter-spacing:1px;*/word-spacing:2px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#555;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#555;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  div.Grid:after {content:"";display:table;clear:both;}
+  .Col10              {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col10C             {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;text-align:center;}
+  .Col12              {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col13              {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col13Img {margin:0px auto;border:0px solid transparent;border-radius:5px;padding:0%;display:block;max-width:100%;}
+  .Col13 > h2 {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+  .Col13 > p  {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+  /***   G O L D E N   R A T I O   C O L U M N   O N E   =   62%   T O T A L   ***/
+  div.col1Gold   {width:100%;float:left;color:#333;}
+  /***   G O L D E N   R A T I O   C O L U M N   T W O   =   38%   T O T A L   ***/
+  div.col2Gold   {width:100%;float:left;overflow:hidden;}
+
+  div.Normal1 {width:94%;margin:0px;border:0px none #333;padding:2% 3% 2% 3%;background-color:#fff;color:#333;}
+  
+  div#Sponsers {width:100%;margin:0px;border:0px none #333;padding:2% 0% 2% 0%;background-color:#transparent;color:#333;}
+  #SiteLinkW {background-color:transparent;color:#333;}
+  .SiteLink {float:left;width:44%;height:150px;margin:0px;border:0px none #333;padding:2% 3%;background-color:transparent;}
+  .SiteLink > a {text-decoration:none;font-weight:700;font-size:1.2em;font-family:'Vavela Round',Tahoma,Helvetica,Arial,sans-serif;}
+  .SiteLink > a:link, .SiteLink > a:visited {color:#394257;}
+  .SiteLink > a:hover, .SiteLink > a:active {color:#333333;}
+  .SiteLink > p {padding:2% 3%;font-weight:400;font-size:0.8em;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  .NoPrint {display:normal;}
+}
+/******************************************************************************************************  S I X  **********************************************************/
+@media screen and (min-width:940px) and (max-width:1024px) {
+  /**   H E I G H T S
+   ***************************************************************************************************************************************************/
+  html,body {height:100%;min-height:350vh;}
+  div#PageWrap {min-height:1000px;}
+  div#MainWrap {min-height:1000px;}
+  div.NewsletterW {height:100%;}
+
+  /***   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:100%;height:100%;position:relative;top:0px;overflow:hidden;margin:0px auto;border:0px;padding:0%;z-index:1;}
+
+  /***   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /***   H E A D E R     
+   ***************************************************************************************************************************************************/
+  div#Header {width:100%px;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-image:url("../img/AlchemyBanner.png");background-repeat:no-repeat;background-position:left top;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText {position:absolute;top:95px;left:340px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.0em;font-style:italic;font-weight:700;}
+  div#HeadText2 {position:absolute;top:90px;left:20px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.2em;font-style:none;font-weight:900;}
+  img#logo {position:absolute;top:20px;right:80px;z-index:100;}
+
+  /***   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:160px;left:0px;width:100%;height:61px;margin:0px;border:0px none #333;padding:10px 5px;background-clip:padding-box;background-color:rgba(125,125,125,0.2);z-index:99;}
+  ul#Nav {position:relative;top:5px;left:20px;margin:0px 0px 0px 0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;height:30px;padding:0px;text-align:center;}
+  ul#Nav > li > a {height:30px;display:block;text-decoration:none;font-weight:700;font-size:1.0em;margin:0px 4px;border:1px solid #256CA4;border-radius:8px;padding:15px 30px 3px 30px;color:#FFF;/*background-color:#357CB4;*/background-color:rgba(53,124,180,0.4);}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;} /* 53,124,180  */
+  div#NavWrap ul.hovered > li > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+
+  /***   A N C H O R   B U T T O N
+   *************************************************************************************************************************/
+  a.aBtn {width:400px;margin:10px;border:1px solid #777;border-radius:6px;padding:10px 30px;font-weight:700;font-size:1.1em;text-decoration:none;text-align:center;verical-align:middle;background-color:#000;color:#fff;display:block;}
+  a.aBtn:link, a.aBtn:visited {background-color:#354157;color:#FFFFFF;}
+  a.aBtn:hover, a.aBtn:active {background-color:#B7C1DB;color:#354157;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#fff;color:#555;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;/*letter-spacing:1px;*/word-spacing:2px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#555;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#555;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  div.Grid:after {content:"";display:table;clear:both;}
+  .Col10             {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col10C            {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;text-align:center;}
+  .Col12:first-child {float:left;width:46%;margin:0px;border:0px none #333;padding:1% 1% 1% 3%;}
+  .Col12:last-child  {float:left;width:46%;margin:0px;border:0px none #333;padding:1% 3% 1% 1%;}
+  .Col13:nth-child(2) {float:left;width:29%;margin:0px;border:0px none #333;padding:1% 1% 1% 3%;}
+  .Col13:nth-child(3) {float:left;width:29%;margin:0px;border:0px none #333;padding:1% 2% 1% 2%;}
+  .Col13:nth-child(4) {float:left;width:29%;margin:0px;border:0px none #333;padding:1% 3% 1% 1%;}
+  .Col13Img {margin:0px auto;border:0px solid transparent;border-radius:5px;padding:0%;display:block;max-width:100%;}
+  .Col13 > h2 {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+  .Col13 > p  {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+  /***   G O L D E N   R A T I O   C O L U M N   O N E   =   62%   T O T A L   ***/
+  div.col1Gold   {width:62%;float:left;color:#333;}
+  /***   G O L D E N   R A T I O   C O L U M N   T W O   =   38%   T O T A L   ***/
+  div.col2Gold   {width:38%;float:left;overflow:hidden;}
+  div.Normal1 {width:94%;margin:0px;border:0px none #333;padding:2% 3% 2% 3%;background-color:#fff;color:#333;}
+  
+  div#Sponsers {width:100%;margin:0px;border:0px none #333;padding:2% 0% 2% 0%;background-color:#transparent;color:#333;}
+  #SiteLinkW {background-color:transparent;color:#333;}
+  .SiteLink {float:left;width:44%;height:150px;margin:0px;border:0px none #333;padding:2% 3%;background-color:transparent;}
+  .SiteLink > a {text-decoration:none;font-weight:700;font-size:1.2em;font-family:'Vavela Round',Tahoma,Helvetica,Arial,sans-serif;}
+  .SiteLink > a:link, .SiteLink > a:visited {color:#394257;}
+  .SiteLink > a:hover, .SiteLink > a:active {color:#333333;}
+  .SiteLink > p {padding:2% 3%;font-weight:400;font-size:0.8em;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  .NoPrint {display:normal;}
+}
+/******************************************************************************************************  D E S K T O P  **************************************************/
+@media screen and (min-width: 1025px) {
+  /**   H E I G H T S
+   ***************************************************************************************************************************************************/
+  html,body {height:100%;min-height:350vh;}
+  div#PageWrap {min-height:1000px;}
+  div#MainWrap {min-height:1000px;}
+  div.NewsletterW {height:100%;}
+
+  /***   P A G E   W R A P
+   ***************************************************************************************************************************************************/
+  div#PageWrap {width:1024px;height:96%;position:relative;top:0px;overflow:hidden;margin:0px auto;border:0px;padding:0% 0%;z-index:1;}
+
+  /***   M A I N   W R A P
+   ***************************************************************************************************************************************************/
+  div#MainWrap {background-color:#fff;color:#555;margin:0px;border:0px none #0F0;padding:0px;}
+
+  /***   H E A D E R     
+   ***************************************************************************************************************************************************/
+  div#Header {width:1024px;height:242px;position:relative;top:0px;overflow:hidden;margin:0px;border:0px;padding:0px;background-image:url("../img/AlchemyBanner.png");background-repeat:no-repeat;background-position:left top;}
+  div#HeaderImg {display:none;}
+  div#HeadLogo {display:none;}
+  div#HeadText {position:absolute;top:95px;left:340px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.0em;font-style:italic;font-weight:700;}
+  div#HeadText2 {position:absolute;top:90px;left:20px;width:389px;height:70px;color:#FFFFFF;font-family:'Vavela Round',Arial,Helvetica,sans-serif;font-size:2.2em;font-style:none;font-weight:900;}
+  img#logo {position:absolute;top:20px;right:80px;z-index:100;}
+
+  /***   N A V I G A T I O N
+   ***************************************************************************************************************************************************/
+  div#NavLink {display:none;}
+  div#NavWrap {position:absolute;top:161px;left:0px;width:100%;height:61px;margin:0px;border:0px none #333;padding:10px 5px;background-clip:padding-box;background-color:rgba(125,125,125,0.2);z-index:99;}
+  ul#Nav {position:relative;top:5px;left:20px;margin:0px 0px 0px 0px;border:0px none #fff;padding:0px;list-style:none;float:left;clear:both;}
+  ul#Nav > li {position:relative;float:left;height:30px;padding:0px;text-align:center;}
+  ul#Nav > li > a {height:30px;display:block;text-decoration:none;font-weight:700;font-size:1.0em;margin:0px 4px;border:1px solid #256CA4;border-radius:8px;padding:15px 30px 3px 30px;color:#FFF;/*background-color:#357CB4;*/background-color:rgba(53,124,180,0.4);}
+  ul#Nav > li > a:hover,
+  ul#Nav > li.selected > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;} /* 53,124,180  */
+  div#NavWrap ul.hovered > li > a {background-color:rgba(45,45,45,0.7);color:#fff;border-color:#333;}
+
+  /***   A N C H O R   B U T T O N
+   *************************************************************************************************************************/
+  a.aBtn {width:400px;margin:10px;border:1px solid #777;border-radius:6px;padding:10px 30px;font-weight:700;font-size:1.1em;text-decoration:none;text-align:center;verical-align:middle;background-color:#000;color:#fff;display:block;}
+  a.aBtn:link, a.aBtn:visited {background-color:#354157;color:#FFFFFF;}
+  a.aBtn:hover, a.aBtn:active {background-color:#B7C1DB;color:#354157;}
+
+  /**   F O O T E R
+   ***************************************************************************************************************************************************/
+  div#Footer {position:relative;height:142px;background-color:#fff;color:#555;text-align:center;}
+  div#FooterText {position:relative;top:30px;display:inline-block;margin:0px auto;border:0px;padding:0px;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:0.75em;font-variant:normal;font-weight:700;line-height:1.5em;/*letter-spacing:1px;*/word-spacing:2px;}
+  div#FooterText a:link, div#FooterText a:visited {text-decoration:none;color:#555;}
+  div#FooterText a:active, div#FooterText a:hover   {text-decoration:underline;color:#555;}
+
+  /**   G R I D
+   ***************************************************************************************************************************************************/
+  div.Grid {width:100%;padding:0px;margin:0px;}
+  div.Grid:after {content:"";display:table;clear:both;}
+  .Col10             {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;}
+  .Col10C            {float:left;width:94%;margin:0px;border:0px none #333;padding:1% 3% 1% 3%;text-align:center;}
+  .Col12:first-child {float:left;width:46%;margin:0px;border:0px none #333;padding:1% 1% 1% 3%;}
+  .Col12:last-child  {float:left;width:46%;margin:0px;border:0px none #333;padding:1% 3% 1% 1%;}
+
+  .Col13:nth-child(2) {float:left;width:29%;margin:0px;border:0px none #333;padding:1% 1% 1% 3%;}
+  .Col13:nth-child(3) {float:left;width:29%;margin:0px;border:0px none #333;padding:1% 2% 1% 2%;}
+  .Col13:nth-child(4) {float:left;width:29%;margin:0px;border:0px none #333;padding:1% 3% 1% 1%;}
+  .Col13Img {margin:0px auto;border:0px solid transparent;border-radius:5px;padding:0%;display:block;max-width:100%;}
+  .Col13 > h2 {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+  .Col13 > p  {margin:0px auto;border:0px none #333;padding:0%;display:block;text-align:left;}
+
+  /***   G O L D E N   R A T I O   C O L U M N   O N E   =   62%   T O T A L   ***/
+  div.col1Gold   {width:62%;float:left;color:#333;}
+  /***   G O L D E N   R A T I O   C O L U M N   T W O   =   38%   T O T A L   ***/
+  div.col2Gold   {width:38%;float:left;overflow:hidden;}
+  div.Normal1 {width:94%;margin:0px;border:0px none #333;padding:2% 3% 2% 3%;background-color:#fff;color:#333;}
+  
+  div#Sponsers {width:100%;margin:0px;border:0px none #333;padding:2% 0% 2% 0%;background-color:#transparent;color:#333;}
+  #SiteLinkW {background-color:transparent;color:#333;}
+  .SiteLink {float:left;width:44%;height:150px;margin:0px;border:0px none #333;padding:2% 3%;background-color:transparent;}
+  .SiteLink > a {text-decoration:none;font-weight:700;font-size:1.2em;font-family:'Vavela Round',Tahoma,Helvetica,Arial,sans-serif;}
+  .SiteLink > a:link, .SiteLink > a:visited {color:#394257;}
+  .SiteLink > a:hover, .SiteLink > a:active {color:#333333;}
+  .SiteLink > p {padding:2% 3%;font-weight:400;font-size:0.8em;}
+
+  /**   S O C I A L   M E D I A
+   ***************************************************************************************************************************************************/
+  div#SocialMedia {display:none;}  /* SOCIAL MEDIA */
+  div#SM-LinkedIn {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}            /* LINKEDIN     */
+  div#SM-FB       {position:relative;width:30px;height:30px;margin:0px;border:0px none #fff;padding:5px;float:left;}           /* FACEBOOK     */
+  div#SocialMedia:after {content: "";display: table;clear: both;}
+
+  .NoPrint {display:normal;}
+}
+/******************************************************************************************************  P R I N T  ******************************************************/
+@media print {
+
+
+
+  .NoPrint {display:none;}
+
+}
+
+

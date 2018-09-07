@@ -1,0 +1,1195 @@
+
+---------------------------------------------------------------------------------------------------
+Black Knight Contact with Google Maps
+
+
+Contact Page contains two parts:
+---------------------------------------------------------------------------------------------------
+
+    1. The Address
+       Text Blurb?
+
+
+    2. Google Maps
+       Directions Blurb?
+
+Question: Is a CPT needed?
+---------------------------------------------------------------------------------------------------
+
+Solutions:
+
+  1. Treat is as a special page without the standard layout with a sidebar image. 
+     Entire content is posted in page post including Bootstrap rows and columns.
+
+  2. Treat is as a special page without the standard layout with a sidebar image. 
+     Create a CPT for Address and for Google Maps
+
+
+      Address CPT:
+    
+          Regular Post Title:
+          Regular Post Text:
+          Featured Image:
+
+          CPT Post:
+            Hours:      11:00am - 2:00am
+            Name:       Black Knight Gastro Lounge
+            Location:   The Triangle
+            Address:    1870 Harbor Blvd
+            City:       Costa Mesa
+            State:      CA
+            Zip:        92627
+            Phone:      9496462401
+            Email:      BlackKnightGastroLounge@gmail.com
+
+
+
+      Google Maps CPT:
+
+          Regular Post Title:
+          Regular Post Text:
+          Featured Image:
+          CPT Post:
+            MapSource:        https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1870+Harbor+Blvd+Costa+Mesa,+CA+92627&amp;aq=&amp;sll=32.824552,-117.108978&amp;sspn=0.705104,1.674042&amp;ie=UTF8&amp;hq=&amp;hnear=1870+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&amp;t=m&amp;ll=33.652566,-117.913942&amp;spn=0.030365,0.04283&amp;z=14&amp;iwloc=A&amp;output=embed
+
+
+
+
+  3. Treat is as a special page without the standard layout with a sidebar image. 
+     Create a single CPT for Address and Google Maps
+
+
+      Address CPT:
+    
+          Regular Post Title:
+          Regular Post Text:
+          Featured Image:
+
+          CPT Post:
+            Hours:      11:00am - 2:00am
+            Name:       Black Knight Gastro Lounge
+            Location:   The Triangle
+            Address:    1870 Harbor Blvd
+            City:       Costa Mesa
+            State:      CA
+            Zip:        92627
+            Phone:      9496462401
+            Email:      BlackKnightGastroLounge@gmail.com
+            MapSource:  https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1870+Harbor+Blvd+Costa+Mesa,+CA+92627&amp;aq=&amp;sll=32.824552,-117.108978&amp;sspn=0.705104,1.674042&amp;ie=UTF8&amp;hq=&amp;hnear=1870+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&amp;t=m&amp;ll=33.652566,-117.913942&amp;spn=0.030365,0.04283&amp;z=14&amp;iwloc=A&amp;output=embed
+
+
+
+
+
+
+
+
+
+
+
+<iframe 
+  id="googleMap" 
+  width="100%" 
+  height="500" 
+  frameborder="0" 
+  scrolling="no" 
+  marginheight="0" 
+  marginwidth="0" 
+  src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1870+Harbor+Blvd+Costa+Mesa,+CA+92627&amp;aq=&amp;sll=32.824552,-117.108978&amp;sspn=0.705104,1.674042&amp;ie=UTF8&amp;hq=&amp;hnear=1870+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&amp;t=m&amp;ll=33.652566,-117.913942&amp;spn=0.030365,0.04283&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+
+
+
+
+
+Hours:      11:00am - 2:00am
+Name:       Black Knight Gastro Lounge
+Location:   The Triangle
+Address:    1870 Harbor Blvd
+City:       Costa Mesa
+State:      CA
+Zip:        92627
+Phone:      <a href="tel:+19496462401">949.646.2401</a>
+Email:      <a href="mailto:blackknightgastrolounge@gmail.com">BlackKnightGastroLounge@gmail.com</a>
+
+
+
+
+<div id="contactWrap">
+  <div class="leftSide">Hours Of Operation</div>
+  <div class="rightSide">11:00am - 2:00am</div>
+  <div class="leftSide">Address</div>
+  <div class="rightSide">Black Knight Gastro Lounge<br />The Triangle<br />1870 Harbor Blvd<br />Costa Mesa, CA 92627<br /></div>
+  <div class="leftSide">Phone</div>
+  <div class="rightSide"><a href="tel:+19496462401">949.646.2401</a></div>
+  <div class="leftSide">Email</div>
+  <div class="rightSide"><a href="mailto:blackknightgastrolounge@gmail.com">BlackKnightGastroLounge@gmail.com</a></div>
+</div>
+<p>
+  &nbsp;<br/>
+  We are always trying to improve in any way we can, so please
+  let us know how we can make your experience even more enjoyable.
+  Your feedback is much appreciated!<br/>
+  &nbsp;<br/>
+  <a class="siteLink" href="https://maps.google.com/maps?f=d&source=s_q&hl=en&geocode=%3BCUYf-xnqiFbBFY9YAQIdJ7b4-ClhiBolj9_cgDE03LV1IhRBIQ&q=1870+Harbor+Blvd+Costa+Mesa,+CA+92627&aq=&sll=32.824552,-117.108978&sspn=0.705104,1.674042&ie=UTF8&hq=&hnear=1870+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&t=m&z=14&vpsrc=0&iwloc=A&daddr=1870+Harbor+Blvd,+Costa+Mesa,+CA+92627" target="_blank">Directions</a>
+  &nbsp;<br/>&nbsp;<br/>
+</p>
+
+<iframe id="googleMap" width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1870+Harbor+Blvd+Costa+Mesa,+CA+92627&amp;aq=&amp;sll=32.824552,-117.108978&amp;sspn=0.705104,1.674042&amp;ie=UTF8&amp;hq=&amp;hnear=1870+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&amp;t=m&amp;ll=33.652566,-117.913942&amp;spn=0.030365,0.04283&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+
+
+
+
+
+
+
+
+
+
+Black Knight History
+
+
+The Original Black Knight - 330 E. 17th Street, Costa Mesa
+
+The original Black Knight was located at 330 E. 17th Street in Costa Mesa, California.
+It was owned and operated by Paul "Babe" Hodnick, William Dragenza and Bill Lindley. 
+The Black Knight opened in the mid to late 1960's and closed in the early 1970s.
+It was a dark place with dark paneled walls and dark red and black diamond tuck and 
+rolled leather padding the booths and bar area with candle lit booths. 
+It was a classic cocktail lounge. 
+
+Whiskey Bill's - 445 Old Newport Blvd, Newport Beach
+
+When the Black Knight closed it's doors in the early 1970's it's loyal patrons found themselves 
+without a gathering place. The first place to come out of the Black Knight was Whiskey Bill's.
+Bill Lindley was a bartender and part owner of The Black Knight. He opened Whiskey Bill's around 
+the corner from the Black Knight at 445 Old Newport Blvd.
+
+
+The Little Knight - 436 E. 17th Street, Costa Mesa
+Not long after Whiskey Bill's opened, former Black Knight patron and local attorney, Hal Harriman 
+bought a beer bar down the street form where the Black Knight was located called the "Grin and Beer It"
+Hal changed the liqour license to a full bar licence and began working with his family to rebuild the 
+bar's interior. Since it was no longer going to be "Grin and Beer It", a new name was needed. 
+Long time family friend, Bill Lindley, had donated left over coasters, place mats and match books 
+from the Black Knight which the new bar had been using until they had their own branded stuff 
+produced. At some point, someone mentioned that the new place was like a small version of the
+Black Knight and so it was called the "Little Knight".
+In the 1980's  Hal's son Erik Harriman took over the operations of the Little Knight. Erik made 
+a lot of upgrade modifications to the bar's interior as well as installing a proper beer delivery system.
+The bar's popularity grew. It became a well known establishment amongst the younger crowd.
+The Little Knight was still going strong when the property was bought by a new owner and Erik's 
+lease on the building would not be renewed. Undaunted, he persevered to create something bigger and 
+better than the Little Knight. In 2012 he opened the Black Knight in the Triangle in Costa Mesa.
+It was decided that since it was larger and a different concept involving more food, that it should
+have a new name while still giving honor to the place that spawned it. It was decided to name it after
+the Little Knight's namesake, The Black Knight.
+
+The Little Knight was known for it's great cocktails and bar food. The Black Knight continues this 
+tradition and has expanded upon this idea by offering more food and libation options.
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+Function Reference: add_meta_box()
+---------------------------------------------------------------------------------------------------
+Description: Adds a meta box to one or more screens.
+
+Syntax:
+
+  add_meta_box( string $id, 
+                string $title,
+                callable $callback,
+                string|array|WP_Screen $screen = null,
+                string $context = 'advanced',
+                string $priority = 'default',
+                array $callback_args = null )
+
+
+
+Parameters:
+
+  $id               Meta box ID (used in the 'id' attribute for the meta box).
+                    (string) (Required)
+
+  $title            Title of the meta box.
+                    (string) (Required)
+
+  $callback         Function that fills the box with the desired content.
+                    The function should echo its output.
+                    (callable) (Required)
+
+  $screen           The screen or screens on which to show the box (such as a post type, 'link', or 'comment').
+                    Accepts a single screen ID, WP_Screen object, or array of screen IDs.
+                    Default is the current screen.
+                    If you have used add_menu_page() or add_submenu_page() to create a new screen
+                    (and hence screen_id), make sure your menu slug conforms to the limits of sanitize_key()
+                    otherwise the 'screen' menu may not correctly render on your page.
+                    Default value: null.
+                    (string|array|WP_Screen) (Optional)
+
+  $context          The context within the screen where the boxes should display.
+                    Available contexts vary from screen to screen.
+                    Post edit screen contexts include 'normal', 'side', and 'advanced'.
+                    Comments screen contexts include 'normal' and 'side'.
+                    Menus meta boxes (accordion sections) all use the 'side' context. Global
+                    Default value: 'advanced'.
+                    (string) (Optional)
+
+  $priority         The priority within the context where the boxes should show ('high', 'low').
+                    Default value: 'default'.
+                    (string) (Optional)
+
+  $callback_args    Data that should be set as the $args property of the box array
+                    (which is the second parameter passed to your callback).
+                    Default value: null.
+                    (array) (Optional)
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+Black Knight Site:
+---------------------------------------------------------------------------------------------------
+Theme:        Black Knight T2
+
+
+Plugins:      DHD Restaurant Menu
+
+
+
+---------------------------------------------------------------------------------------------------
+
+  Home Page
+  Menu
+  About
+  Contact
+
+
+Black Knight Header
+
+    Carousel + Logo Image
+
+     -------------------------------------------------------------------------------------------------------
+    |                                                                                                       |
+    |    ----------------------                                                                             |
+    |   |                      |                                                                            |
+    |   |  Logo Image          |                                                                            |
+    |   |                      |                                                                            |
+    |   |                      |                                                                            |
+    |    ----------------------                                                                             |
+    |                                          Carousel Images                                              |
+    |                                                                                                       |
+    |                                                                                                       |
+    |                                                                                                       |
+    |                                                                                                       |
+     -------------------------------------------------------------------------------------------------------
+
+Custom Post Types:
+
+    Carousel        bkcpt_carousel
+    Google Maps     bkcpt_maps
+    
+
+
+Black Knight Site CPT Usage:
+
+  Home Page
+    Carousel
+  Menu
+    ShortCode for Menu Plugin
+  About
+
+  Contact
+    Google Maps
+
+
+Starter Content:
+
+  Create Pages, Menus, Add Carousel Images and Logo Image.
+  
+
+
+
+
+
+
+
+Menu Positions      (Where to put the Carousel Menu? 11)
+---------------------------------------------------------------------------------------------------
+Dashboard       2
+Posts           5
+Media           10
+Pages           20
+Comments        25
+Appearance      60
+Plugins         65
+Users           70
+Tools           75
+Settings        80
+
+
+
+[ShowMenuTab TabId=18 Columns=2]
+
+
+
+
+
+Welcome to the Black Knight Gastro Lounge
+We are located on the upper level of the newly renovated Triangle Entertainment Center in Costa Mesa.
+
+Black Knight Gastro Lounge is the destination for casual socializing, midweek cocktails and your weekend stops. Our staff of experienced barmen and women serve up hand crafted cocktails, alongside a great collection of wines, local and imported beers and Champagnes, We offer comfy couches as well as bar and table lounge seating. We also have patio seating to enjoy our beautiful Southern California weather. Black Knight’s menu features small and large plate items that can be shared and are suitable for any palette or occasion. The perfect destination for your daytime or evening festivities. We also offer a late night menu available till 1:30 for your late night cravings.
+
+Black Knight Gastro Lounge is also home to Olive Branch Wood Fired Pizza. With a full menu of Artisan Pizza’s, salads and more. Saturday and Sunday Brunch will be served so come in and watch your favorite sports on one of our 12 HDTV’s. Hand Crafted Cocktails, Late Night Menu and Artisan Pizza’s are just a few of the many reasons to make Black Knight Gastro Lounge your next stop..
+
+We are a 21 and over establishment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Custom Post Types For:
+
+  Contact Page:
+  -------------------------------------------------------------------------------------------------
+    Address
+    Google Maps
+
+  <div class="goldWrap">
+    <div class="col12">
+
+      <div id="contactWrap">
+        <div class="leftSide">Hours Of Operation</div>
+        <div class="rightSide">11:00am - 2:00am</div>
+        <div class="leftSide">Address</div>
+        <div class="rightSide">Black Knight Gastro Lounge<br />The Triangle<br />1870 Harbor Blvd<br />Costa Mesa, CA 92627<br /></div>
+        <div class="leftSide">Phone</div>
+        <div class="rightSide"><a href="tel:+19496462401">949.646.2401</a></div>
+        <div class="leftSide">Email</div>
+        <div class="rightSide"><a href="mailto:blackknightgastrolounge@gmail.com">BlackKnightGastroLounge@gmail.com</a></div>
+      </div>
+
+
+      <p>
+        &nbsp;<br/>
+        We are always trying to improve in any way we can, so please
+        let us know how we can make your experience even more enjoyable.
+        Your feedback is much appreciated!<br/>
+        &nbsp;<br/>
+        <a class="siteLink" href="https://maps.google.com/maps?f=d&source=s_q&hl=en&geocode=%3BCUYf-xnqiFbBFY9YAQIdJ7b4-ClhiBolj9_cgDE03LV1IhRBIQ&q=1870+Harbor+Blvd+Costa+Mesa,+CA+92627&aq=&sll=32.824552,-117.108978&sspn=0.705104,1.674042&ie=UTF8&hq=&hnear=1870+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&t=m&z=14&vpsrc=0&iwloc=A&daddr=1870+Harbor+Blvd,+Costa+Mesa,+CA+92627" target="_blank">Directions</a>
+        &nbsp;<br/>&nbsp;<br/>
+      </p>
+      
+    </div>
+    <div class="mapWrap">
+      <iframe id="googleMap" width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1870+Harbor+Blvd+Costa+Mesa,+CA+92627&amp;aq=&amp;sll=32.824552,-117.108978&amp;sspn=0.705104,1.674042&amp;ie=UTF8&amp;hq=&amp;hnear=1870+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&amp;t=m&amp;ll=33.652566,-117.913942&amp;spn=0.030365,0.04283&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+    </div>
+  </div>
+
+
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Black Knight Style Current:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*   GLOBAL RESET OF MARGIN-BORDER-PADDING and BROWSER SPECIFIC SETTINGS  -webkit-appearance:none; */
+* {margin:0px;border:0px none #333;padding:0px;}
+/* FONTS: 
+      'Open Sans',          sans-serif;
+      'Happy Monkey',       cursive;
+      'Roboto',             sans-serif;
+      'Arimo',              sans-serif;
+      'Hind',               sans-serif;
+      'Khula',              sans-serif;
+      'Acme',               sans-serif;
+      'Amarante',           cursive;
+      'Marcellus SC',       serif;
+      'Merriweather Sans',  sans-serif;
+*/
+html {overflow-y:scroll;height:100%;}
+body{width:100%;font:normal 13px 'Open Sans',sans-serif,Arial,Helvetica;margin:0px;border:0px;padding:0px;background-color:#000;background:-webkit-linear-gradient(top,#701302 0%,#000000 100%);background:-o-linear-gradient(top,#701302 0%,#000000 100%);background:-moz-linear-gradient(top,#701302 0%,#000000 100%);background:linear-gradient(top,#701302 0%,#000000 100%);background-repeat:no-repeat;background-size:cover;background-attachment:fixed;letter-spacing:1.4px;text-align:left;margin-bottom:30px;}
+a {color:#fff;}
+a:link, a:visited {text-decoration:none;color:#fff;}
+a:hover, a:active {text-decoration:none;color:#b00;}
+.rounded {-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;border:0px solid transparent;}
+p {padding:1% 3% 2% 3%;}
+h1, h2, h3, h4, h5, h6 {padding:3% 3% 1% 3%;}
+
+*:focus {outline: none;}
+
+/***   H E A D E R   W R A P   ***/
+div#headerWrap{height:200px;}/* 230 */
+div#headerWrap:after {content:"";display:table;clear:both;}
+/***   M A I N   W R A P   ***/
+div#mainWrap {width:100%;}
+/***   G O L D E N   R A T I O   W R A P P E R   ***/
+div.goldWrap {width:90%;margin:0% 5%;border:0px solid transparent;border-radius:5px;padding:0%;background-color:#000;}
+div.goldWrap:after {content: "";display: table;clear: both;}
+/***   G R I D   #4B2904   ***/
+div.grid {width:94%;margin:0% 3%;border:1px solid transparent;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;background-color:transparent;color:#fff;}
+div.grid:after {content: "";display: table;clear: both;}
+/***   F O O T E R   W R A P   ***/
+div#footMenuWrap {text-align:center;}
+div#footMenuWrap > ul#footMenu {list-style:none;display:inline-block;}
+div#footMenuWrap > ul#footMenu > li {float:left;display:block;}
+div#footMenuWrap > ul#footMenu > li > a {font-size:1.1em;font-weight:700;margin:4px;padding:4px 10px;}
+div#footMenuWrap > ul#footMenu > li > a:link,
+div#footMenuWrap > ul#footMenu > li > a:visited {color:#fff;}
+div#footMenuWrap > ul#footMenu > li > a:hover,
+div#footMenuWrap > ul#footMenu > li > a:active {color:#B00;}
+div#footMenuWrap:after {content:"";display:table;clear:both;}
+/***   H O R I Z O N T A L   L I N E S   ***/
+div#hLines > div:nth-child(1) {background-color:#000;width:80%;height:3px;margin:10px auto 4px auto;border:1px solid transparent;border-radius:1px;}
+div#hLines > div:nth-child(2) {background-color:#000;width:60%;height:3px;margin:4px auto;border:1px solid transparent;border-radius:1px;}
+div#hLines > div:nth-child(3) {background-color:#000;width:40%;height:3px;margin:4px auto;border:1px solid transparent;border-radius:1px;}
+/***   R E S T A U R A N T   M E N U   S T Y L E   ***/
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > h2 {margin:0px;border:0px none #000;padding:1% 2%;font-size:1.6em;font-weight:700;color:inherit;text-transform:uppercase;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > p {margin:0px;border:0px none #000;padding:1% 2%;font-size:1.0em;font-weight:400;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul {margin:0px 0px;border:0px none #333;padding:5px 0px 0px 5px;list-style:none;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li {margin:0px 0px;border:0px none #333;padding:5px 0px 0px 5px;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.dlWrap {margin:0px;border:0px;padding:0px 20px 0px 20px;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.dlWrap > div {overflow: hidden;margin:0px;border:0px;padding:8px 0px 0px 0px;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.dlWrap > div > div:first-child {float:left;padding:0px 5px 0px 0px;margin:0;font-size:1em;font-weight:700;display:inline;color:inherit;text-transform:uppercase;}  /*  ITEM NAME             */
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.dlWrap > div > div:first-child h3 {display:inline;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.dlWrap > div > div:nth-child(2) {float:right; padding:0px 0px 0px 5px; margin:0;font-size:1em;font-weight:700;color:inherit;}             /*  ITEM PRICE            */
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.dlWrap > div:after {content:"";display:block;overflow:hidden;height:1em;border-bottom:2px dotted inherit;font-weight:700;}                /*  DOT LEADER SETTING    */
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.ndlWrap {margin:0px;border:0px;padding:0px 20px 0px 20px;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.ndlWrap > div {overflow: hidden;margin:0px;border:0px;padding:8px 0px 0px 0px;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.ndlWrap > div > div:first-child {float:left;padding:0px 5px 0px 0px;margin:0;font-size:1em;font-weight:700;display:inline;color:inherit;text-transform:uppercase;}  /*  ITEM NAME             */
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.ndlWrap > div > div:first-child h3 {display:inline;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.ndlWrap > div > div:nth-child(2) {float:right; padding:0px 0px 0px 5px; margin:0;font-size:1em;font-weight:700;color:inherit;}             /*  ITEM PRICE            */
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.ndlWrap > div:after {content:"";display:block;overflow:hidden;height:1em;border-bottom:2px solid inherit;font-weight:700;}                /*  DOT LEADER SETTING    */
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.itemName {margin:0px;border:0px;padding:10px 20px 5px 20px;font-size:1.2em;font-weight:700;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.itemDesc {margin:0px;border:0px;padding:5px 20px 10px 20px;font-size:1em;font-weight:400;color:inherit;}
+div.rMenuWrap > div.rMenuRight1 > div.rMenuSection > ul > li > div.itemRegion {margin:0px;border:0px;padding:5px 20px 10px 20px;font-size:1em;font-weight:700;color:inherit;}
+ul.rightPanelItems {margin:0px 0px;border:0px none #333;padding:5px 0px 0px 5px;list-style:none;}
+ul.rightPanelItems > li {margin:0px 0px;border:0px none #333;padding:5px 0px 0px 5px;}
+ul.rightPanelItems > li > div.dlWrap {margin:0px;border:0px;padding:0px 20px 0px 20px;color:inherit;}
+ul.rightPanelItems > li > div.dlWrap > div {overflow: hidden;margin:0px;border:0px;padding:8px 0px 0px 0px;color:inherit;}
+ul.rightPanelItems > li > div.dlWrap > div > div:first-child {float:left;padding:0px 5px 0px 0px;margin:0;font-size:1em;font-weight:700;display:inline;color:inherit;text-transform:uppercase;}  /*  ITEM NAME             */
+ul.rightPanelItems > li > div.dlWrap > div > div:first-child h3 {display:inline;color:inherit;}
+ul.rightPanelItems > li > div.dlWrap > div > div:nth-child(2) {float:right; padding:0px 0px 0px 5px; margin:0;font-size:1em;font-weight:700;color:inherit;}             /*  ITEM PRICE            */
+ul.rightPanelItems > li > div.dlWrap > div:after {content:"";display:block;overflow:hidden;height:1em;border-bottom-width:2px;border-bottom-style:dotted;border-bottom-color:inherit;font-weight:700;}                /*  DOT LEADER SETTING    */
+ul.rightPanelItems > li > div.itemDesc {margin:0px;border:0px;padding:5px 20px 10px 20px;font-size:1em;font-weight:700;color:inherit;}
+ul.rightPanelSubItem {margin:0px 0px;border:0px none #333;padding:5px 0px 0px 5px;list-style:none;}
+ul.rightPanelSubItem > li {margin:0px 0px;border:0px none #333;padding:5px 0px 0px 5px;}
+ul.rightPanelSubItem > li > div.dlWrap {margin:0px;border:0px;padding:0px 20px 0px 20px;color:inherit;}
+ul.rightPanelSubItem > li > div.dlWrap > div {overflow: hidden;margin:0px;border:0px;padding:8px 0px 0px 0px;color:inherit;}
+ul.rightPanelSubItem > li > div.dlWrap > div > div:first-child {float:left;padding:0px 5px 0px 0px;margin:0;font-size:1em;font-weight:700;display:inline;color:inherit;text-transform:uppercase;}  /*  ITEM NAME             */
+ul.rightPanelSubItem > li > div.dlWrap > div > div:first-child h3 {display:inline;color:inherit;}
+ul.rightPanelSubItem > li > div.dlWrap > div > div:nth-child(2) {float:right; padding:0px 0px 0px 5px; margin:0;font-size:1em;font-weight:700;color:inherit;}             /*  ITEM PRICE            */
+ul.rightPanelSubItem > li > div.dlWrap > div:after {content:"";display:block;overflow:hidden;height:1em;border-bottom-width:2px;border-bottom-style:dotted;border-bottom-color:inherit;font-weight:700;}                /*  DOT LEADER SETTING    */
+ul.rightPanelSubItem > li > div.itemName {margin:0px;border:0px;padding:10px 20px 5px 20px;font-size:1em;font-weight:400;color:inherit;}
+ul.rightPanelSubItem > li > div.itemDesc {margin:0px;border:0px;padding:5px 20px 10px 20px;font-size:1em;font-weight:700;color:inherit;}
+ul.rightPanelSubItem > li > div.itemRegion {margin:0px;border:0px;padding:5px 20px 10px 20px;font-size:1em;font-weight:700;color:inherit;}
+
+
+
+/******************************************************************************************************  D E S K T O P  **************************************************/
+@media screen and (min-width: 1101px) {
+  /***   P A G E   W R A P   ***/
+  div#pageWrap {width:1100px;height:96%;position:relative;top:0px;overflow:hidden;margin:20px auto;padding:2% 0%;z-index:1;
+                background:        radial-gradient(circle farthest-corner at 246px 113px,#CCCCCC 0%, #555555 30%, #000000 100%);
+                background:-webkit-radial-gradient(circle farthest-corner at 246px 113px,#CCCCCC 0%, #555555 30%, #000000 100%);
+                background:     -o-radial-gradient(circle farthest-corner at 246px 113px,#CCCCCC 0%, #555555 30%, #000000 100%);
+                background:   -moz-radial-gradient(circle farthest-corner at 246px 113px,#CCCCCC 0%, #555555 30%, #000000 100%);
+                border:1px solid transparent;
+                border-radius:8px;
+  }
+  /***   L O G O   W R A P   ***/
+  #logoWrap{position:absolute;top:50px;left:80px;}
+  /***   C O P Y R I G H T   ***/
+  #copyright{width: 170px;float: right;margin-top: 15px;margin-right: 5px;}
+  /***   N A V I G A T I O N   ***/
+  div#navLink {display:none;}
+  div#navWrap {position:absolute;top:160px;left:550px;width:50%;height:30px;padding:10px 5px;z-index:99;}
+  div#navWrap > ul.hMenu {list-style:none;}
+  div#navWrap > ul.hMenu > li {float:left;padding:0px 5px;}
+  div#navWrap > ul.hMenu > li > a {font-size:1.1em;font-weight:700;margin:4px;border:2px solid #fff;border-radius:5px;padding:4px 10px;}
+  div#navWrap > ul.hMenu > li > a:link,
+  div#navWrap > ul.hMenu > li > a:visited {
+    color:#FFF;
+    background:        linear-gradient(top,#701302,#000000 100%);
+    background:-webkit-linear-gradient(top,#701302,#000000 100%);
+    background:     -o-linear-gradient(top,#701302,#000000 100%);
+    background:   -moz-linear-gradient(top,#701302,#000000 100%);
+
+  }
+  div#navWrap > ul.hMenu > li > a:hover,
+  div#navWrap > ul.hMenu > li > a:active {
+    color:#FFF;
+  }
+  div#navWrap:after {content:"";display:table;clear:both;}
+  /***   G O L D E N   R A T I O   C O L U M N   O N E   =   62%   T O T A L   ***/
+  div.col1Gold   {position:relative;width:62%;float:left;color:#fff;margin:0px;border:0px none transparent;padding:0px;}
+  /***   G O L D E N   R A T I O   C O L U M N   T W O   =   38%   T O T A L   ***/
+  div.col2Gold   {position:relative;width:38%;float:left;overflow:hidden;margin:0px;border:0px none transparent;padding:0px;}
+  /***   G O L D E N   R A T I O   C O L U M N   T W O   I M A G E   ***/
+  div.col2Gold > img {margin:0px;border-top-left-radius:0px;border-bottom-left-radius:0px;border-top-right-radius:6px;border-bottom-right-radius:6px;border:0px solid transparent;padding:0px;background-size:100%;}
+  div.col1Gold > p  {color:#fff;line-height:1.7em;margin-bottom:4%;}
+  /***   C O L U M N   O N E   H A L F   ***/
+  div.col12 {width:50%;float:left;min-height:510px;}
+  div.col12 > p {color:#FFF7E7;line-height:1.7em;margin-bottom:4%;}
+  div.mapWrap {width:46%;float:left;min-height:510px;margin:2%;}
+  div.Normal1 {width:94%;margin:0%;border:0px none #fff;padding:1% 3% 2% 3%;}
+  div.normal1 {width:94%;margin:0% 3%;border:1px solid transparent;border-radius:5px;background-color:transparent;}
+  /***   C O N T A C T   W R A P
+   *************************************************************************************************************************/
+  div#contactWrap {margin:3% 3%;border:0px none transparent;padding:0px;width:94%;font-weight:700;font-size:0.9em;}
+  div#contactWrap > div.leftSide  {width:30%;color:#FFF7E7;background-color:#701302;float:left;margin:0px;border:0px solid transparent;padding:3% 3%;}   /* background-color:#4B2904; */
+  div#contactWrap > div.rightSide {width:58%;color:#701302;background-color:#FFF7E7;float:left;margin:0px;border:0px solid transparent;padding:3% 3%;}  /* background-color:#FFF7E7; */
+  div#contactWrap:after {content: "";display: table;clear: both;}
+  div#contactWrap > div.rightSide a {text-decoration:none;}
+  div#contactWrap > div.rightSide a:link, div#contactWrap > div.rightSide a:visited {color:#701302;background-color:#FFF7E7;}
+  div#contactWrap > div.rightSide a:hover, div#contactWrap > div.rightSide a:active {color:#FFF7E7;background-color:#701302;}
+  div#contactWrap > div:nth-child(1) {height:20px;border-top-left-radius:5px;}
+  div#contactWrap > div:nth-child(2) {height:20px;border-top-right-radius:5px;}
+  div#contactWrap > div:nth-child(3) {height:70px;border-radius:0px;}
+  div#contactWrap > div:nth-child(4) {height:70px;border-radius:0px;}
+  div#contactWrap > div:nth-child(5) {height:20px;border-radius:0px;}
+  div#contactWrap > div:nth-child(6) {height:20px;border-radius:0px;}
+  div#contactWrap > div:nth-child(7) {height:20px;border-bottom-left-radius:5px;}
+  div#contactWrap > div:nth-child(8) {height:20px;border-bottom-right-radius:5px;}
+  /***   G O O G L E   M A P
+   *************************************************************************************************************************/
+  #googleMap {margin:0px;border:0px none #333;padding:0px;height:500px;}
+  /***   F O O T   W R A P   ***/
+  div#footWrap {}
+  /***   S O C I A L   M E D I A   W R A P
+   *************************************************************************************************************************/
+  div#socialMediaWrap {position:absolute;right:40px;top:40px;height:28px;width:62px;margin:0px;border:0px none #333;padding:0px;}
+  div#socialMediaWrap > a {margin:0px;border:0px none #333;padding:0px;}
+  div#socialMediaWrap > a > img {margin:0px;border:0px none #333;padding:0px;}
+  /***   H   L I N E S   ***/
+  div#hLines {width:100%;height:40px;background-color:transparent;}
+  /***   R E S T A U R A N T   M E N U  background-color:#701302;  background-color:#F7F5E6;
+   ******************************************************************************************************************/
+  a.backLink {display:none;}
+  div#menuTab {position:relative;width:100%;}
+  div#restMenuWrap {width:100%;margin:0%;border:1px solid transparent;border-radius:5px;padding:0px;background-color:transparent;border-image-width:0px;}
+  div.rMenuWrap {width:90%;margin:0% 5%;border:0px solid transparent;border-radius:5px;padding:0px;background-color:#555;border-image-width:0px;}
+  div.rMenuWrap:after {content:"";display:table;clear:both;}
+  div.restMenuWrap > div#menuTab > div > div.rMenuSectionName {display:none;}
+  div.rMenuWrap > div.rMenuLeft1 {position:relative;width:23%;margin:0px;border:0px none #f00;padding:1% 2% 2% 0%;float:left;background-color:transparent;}
+  div.rMenuWrap > div.rMenuLeft1 > input.btnMenuSect {
+    width:92%;margin:0% 0% 3% 4%;border:0px none #000;border-radius:4px;padding:5% 0% 5% 4%;text-align:left;vertical-align:middle;font-weight:700;font-size:0.8em;cursor:pointer;
+    background:        linear-gradient(top,#000000,#701302 100%);
+    background:-webkit-linear-gradient(top,#000000,#701302 100%);
+    background:     -o-linear-gradient(top,#000000,#701302 100%);
+    background:   -moz-linear-gradient(top,#000000,#701302 100%);
+    color:#fff;
+    text-transform:uppercase;
+
+  }
+  div.rMenuWrap > div.rMenuLeft1 > input.btnMenuSect:hover {
+    color:#fff;
+    background:        linear-gradient(top,#701302,#000000 100%);
+    background:-webkit-linear-gradient(top,#701302,#000000 100%);
+    background:     -o-linear-gradient(top,#701302,#000000 100%);
+    background:   -moz-linear-gradient(top,#701302,#000000 100%);
+
+  }
+  div.rMenuWrap > div.rMenuLeft1 > a.linkMenuSect {display:none;}
+  div.rMenuWrap > div.rMenuRight1 {
+    position:relative;width:73%;margin:0px;
+    border:0px solid transparent;border-top-right-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:0px;border-bottom-left-radius:0px;
+    padding:1% 0% 2% 2%;float:left;
+    background:#A0A0A0;
+    background:        linear-gradient(top,#A0A0A0 0%,#909090 100%);
+    background:-webkit-linear-gradient(top,#A0A0A0 0%,#909090 100%);
+    background:     -o-linear-gradient(top,#A0A0A0 0%,#909090 100%);
+    background:   -moz-linear-gradient(top,#A0A0A0 0%,#909090 100%);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#333;
+  }
+  div.rMenuWrap > div.rMenuRight1 > div.rMenuSection {position:absolute;top:0px;left:0px;width:96%;margin:0px;border:0px none #000;border-collapse:collapse;padding:0% 2%;overflow:hidden;display:none;color:inherit;}
+  /******************************************************************************************************************
+   ***   I M A G E S
+   ******************************************************************************************************************/
+  div#homeImg {width:90%;margin:0px auto;}
+  div#homeImg > img {max-width:100%;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;border:0px solid transparent;}  div#aboutImg {background:transparent url('../images/sideFlatbread02.png') no-repeat left top;background-size:cover;height:100vh;max-width:100%;}
+  div#entertainImg {background:transparent url('../images/sideEntertain01.png') no-repeat left top;background-size:cover;height:100vh;max-width:100%;}
+  /***   N O   P R I N T   ***/
+  .NoPrint {display:normal;}
+}
+/******************************************************************************************************  P R I N T  ******************************************************/
+@media print {
+  .NoPrint {display:none;}
+}
+
+
+
+
+
+div .container .main-container #main-container
+  ul .nav .nav-tabs #vrTabControl
+    li .nav-item
+      a #id2_1_tab .nav-link .active
+    li nav-item
+      a #id1_2_tab .nav-link
+
+  div .tab-content #vrTabContent
+    div #id1_1  .tab-pane .fade .show .active
+
+
+.nav-tabs .nav-item a.nav-link:link,
+.nav-tabs .nav-item a.nav-link:visited {color:#0f0;}
+.nav-tabs .nav-item a.nav-link:hover,
+.nav-tabs .nav-item a.nav-link:active  {color:#00f;}
+
+
+
+
+<div class="class1 class2"></div>
+div.class1.class2  {/* foo */}
+
+
+
+div .container
+    .main-container
+
+
+  /* ACTIVE TAB */
+  ul.nav.nav-tabs li.nav-item a.nav-link.active
+
+  /* INACTIVE TAB */
+  ul.nav.nav-tabs li.nav-item a.nav-link
+
+
+
+
+
+    li .nav-item
+      a .nav-link
+    li .nav-item
+      a .nav-link
+
+  </ul>
+  <div class="tab-content" id="vrTabContent">
+    <div id="id1_1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="id2_1_tab" >
+      <div class="mm-tab-header-text">Appetizers, delectable little bites to enhance your appetite</div>
+      <div class="row">
+
+
+
+
+
+
+
+<div class="container main-container" id="main-container">
+  <ul class="nav nav-tabs" id="vrTabControl" role="tablist">
+    <li class="nav-item"><a href="#id1_1" id="id2_1_tab" class="nav-link active" data-toggle="tab" role="tab" aria-controls="id1_1" aria-selected="true">Apps</a></li>
+    <li class="nav-item"><a href="#id1_2" id="id2_2_tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="id1_2" aria-selected="false">Main Fare</a></li>
+    <li class="nav-item"><a href="#id1_3" id="id2_3_tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="id1_3" aria-selected="false">Wood Fired</a></li>
+    <li class="nav-item"><a href="#id1_4" id="id2_4_tab" class="nav-link" data-toggle="tab" role="tab" aria-controls="id1_4" aria-selected="false">Salads &#038; Extras</a></li>
+  </ul>
+  <div class="tab-content" id="vrTabContent">
+    <div id="id1_1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="id2_1_tab" >
+      <div class="mm-tab-header-text">Appetizers, delectable little bites to enhance your appetite</div>
+      <div class="row">
+        <div class="menu-column col-md-6">
+          <div class="mm-section">
+            <div class="mm-section-title">Bill of Fare</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Cheese Board</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Assorted Cheeses, Flavored Jams, Olives, Nuts, Crostinis</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Meat & Cheese Board</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Assorted Meats &amp; Cheeses, Flavored Jams, Olives, Nuts, Crostinis</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Fried Mozzarella</div><div>$10.00</div></div></div>
+              <div class="mm-item-text">Served with a marinara dipping sauce</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Goat Cheese Dip</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Roasted Garlic, Almond Sauce, Crostinis</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Artichoke Spinach Dip</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Fresh Baked Bread, Carrots, Celery, Add Bacon .50 / Add Jalapeno .50</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Tempura Garlic Green Beans</div><div>$10.00</div></div></div>
+              <div class="mm-item-text">Served with a choice of marinara or aioli sauce.</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Asparagus Fries</div><div>$12.00</div></div></div>
+              <div class="mm-item-text">Served with an aioli sauce</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Brussel Sprout Saute</div><div>$12.00</div></div></div>
+              <div class="mm-item-text">Brussel Sprout, Bacon, Shallots, Garlic, Almonds, Currants, Balsamic</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Potato Skins</div><div>$13.00</div></div></div>
+              <div class="mm-item-text">Potato Skins, Bacon, Green Onions, Cheddar Cheese, Sour Cream</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Potato Balls</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Potato, Bacon, Green Onions, Cheddar Cheese, Sour Cream</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+          <div class="mm-section">
+            <div class="mm-section-title">Bruschetta</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Traditional Bruschetta</div><div>$13.00</div></div></div>
+              <div class="mm-item-text">Tomato, Basil, Garlic, Parmesan</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Avocado Bruschetta</div><div>$13.00</div></div></div>
+              <div class="mm-item-text">Avocado, Cilantro, Red Onion, Tomato</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Goat Cheese Bruschetta</div><div>$13.00</div></div></div>
+              <div class="mm-item-text">Artichoke, Goat Cheese, Pesto</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+        </div>
+        <div class="menu-column col-md-6">
+          <div class="mm-section">
+            <div class="mm-section-title">From The Sea</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Calamari Steak Strips</div><div>$10.00</div></div></div>
+              <div class="mm-item-text">Served with a spicy cocktail sauce</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Tuna Poke</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Traditional style or spicy Pele's kiss style. Ahi, Avocado, Wonton Chips</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Eggplant Poke</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Tempura Fried Eggplant Medallions, Ahi Poke, Wasabi Caviar</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Cucumber Poke</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Cucumber medallions, ahi poke, tobiko, wasabi</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Poke Nachos</div><div>$16.00</div></div></div>
+              <div class="mm-item-text">Traditional style or spicy style tuna poke, corn or wonton chips, cilantro, red onion, lime, avocado, jalapeno, wasabi cream, Pele's sauce</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Crab Cakes</div><div>$15.00</div></div></div>
+              <div class="mm-item-text">Papaya Mango Salsa, Remoulade Sauce, Spring Mix Salad</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+          <div class="mm-section">
+            <div class="mm-section-title">Hearty</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Meatball Skillet</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Served after 5pm</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Hot Wings</div><div>$10.00</div></div></div>
+              <div class="mm-item-text">Celery, Carrots, Dipping Sauce</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Chicken Skewers</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Grilled Chicken, Crostinis, Dipping Sauces</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Filet Mignon Skewers</div><div>$15.00</div></div></div>
+              <div class="mm-item-text">Grilled Filet Skewers, Cream Corn, Crostinis, Dipping Sauces</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Buffalo Mac</div><div>$12.00</div></div></div>
+              <div class="mm-item-text">Buffalo Chicken, Jalapeno, Buffalo Cheese Sauce, Blue Cheese Crumbles</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Jalapeno Bacon Mac</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Mac & Cheese, Jalapeno, Bacon</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+        </div><!-- .end-column -->
+      </div><!-- .row -->
+    </div><!-- .tab-pane -->
+    <div id="id1_2" class="tab-pane fade" role="tabpanel" aria-labelledby="id2_2_tab" >
+      <div class="mm-tab-header-text">Entrees and items with larger portions</div>
+      <div class="row">
+        <div class="menu-column col-md-6">
+          <div class="mm-section">
+            <div class="mm-section-title">Sliders</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Buffalo Sliders</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">(3) Grilled Chicken, Buffalo Sauce, Lettuce, Tomato, Pickles, Onion Straws, Brioche Bun, (Choice Of Cheese)</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Beef Sliders</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">(3) Ground Beef, Lettuce, Tomato, Pickles, Onion Straws, Brioche Bun, (Choice Of Cheese)
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Short Rib Sliders</div><div>$13.00</div></div></div>
+              <div class="mm-item-text">(3) Port Braised Short Rib Meat, Onion Straws, Brioche Bun</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Seared Ahi Sliders</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">(2) Panko Crusted Ahi Patties, Roma Tomatoes, Pickled Red Onion, Sriracha Mayo, Brioche Bun</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+          <div class="mm-section">
+            <div class="mm-section-title">Tacos</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Little Knight Taco</div><div>$2.00</div></div></div>
+              <div class="mm-item-text">Crispy Corn Tortilla, Ground Beef, Lettuce, Cheese, Tomatoes, Green Onions, Olives
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Short Rib Tacos</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Soft Corn Tortilla, Port Braised Short Rib, Pickled Red Onion, Cilantro, Pico De Gallo, Guacamole, Served With Chips</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Poke Tacos</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Wonton Shells, Ahi Poke Tuna, Cabbage, Guacamole, Wasabi Cream</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Fish Tacos</div><div>$12.00</div></div></div>
+              <div class="mm-item-text">(2) Beer Battered Mahi Mahi, Cabbage, Baja Sauce, Guacamole, Served With Chips</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Cajun Shrimp Tacos</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">(2) Cabbage, Mango Salsa, Chipotle Aioli, Guacamole, Chips. (Served After 5pm)</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+        </div>
+        <div class="menu-column col-md-6">
+          <div class="mm-section">
+            <div class="mm-section-title">Sandwiches</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Seared Ahi Sandwich</div><div>$16.00</div></div></div>
+              <div class="mm-item-text">Roma Tomatoes, Arugula, Radish Sprouts, Pele's Sauce, Balsamic, Wasabi Cream, Fresh Baked Bread</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Classic Grilled Cheese</div><div>$8.00</div></div></div>
+              <div class="mm-item-text">White Bread, American Cheese, Grilled Golden Brown</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Ham & Cheese</div><div>$9.00</div></div></div>
+              <div class="mm-item-text">Parmesan Crusted Sourdough, Ham, Swiss</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>BLT</div><div>$9.00</div></div></div>
+              <div class="mm-item-text">Bacon, Lettuce, Tomato, (Add Avocado 1)</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Meatball</div><div>$12.00</div></div></div>
+              <div class="mm-item-text">Meatballs, Marinara, Mozzarella, Fresh Baked Bread. (Served After 5pm)</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Grilled Chicken</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Grilled Chicken, Mozzarella, Roma Tomatoes, Pesto, Fresh Baked Bread</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Italian</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">Salami, Prosciutto, Sopresata, Mozzarella, Roma Tomatoes, Bell Pepper, Red Onion, Pesto, Butter Lettuce, Fresh Baked Bread</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+        </div><!-- .end-column -->
+      </div><!-- .row -->
+    </div><!-- .tab-pane -->
+    <div id="id1_3" class="tab-pane fade" role="tabpanel" aria-labelledby="id2_3_tab" >
+      <div class="mm-tab-header-text">Pizzas and flatbreads cooked in our wood fired oven</div>
+      <div class="row">
+        <div class="menu-column col-md-6">
+          <div class="mm-section">
+            <div class="mm-section-title">Build Your Own</div>
+            <div class="mm-section-text">
+              Mozzarella And Sauce Are Included<br/>
+              Sm = 6 Slices, Med = 8 Slices, Lg = 12 Slices
+            </div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Cheese Pizza</div><div>$10.60 / $16.60 / $19.60</div></div><div class="dot-lead"><div>One Item Pizza</div><div>$11.60 / $17.50 / $20.50</div></div><div class="dot-lead"><div>Two Item Pizza</div><div>$12.50 / $18.50 / $21.60</div></div><div class="dot-lead"><div>Four Item Pizza</div><div>$14.50 / $20.50 / $23.50</div></div></div>
+              <div class="mm-item-text">&nbsp;<br/>
+            <b>Sauces: </b>Tomato, Pesto, Alfredo<br/>
+            &nbsp;<br/>
+            <b>Cheese: </b>Feta, Gorgonzola, Mozzarella, Parmesan, Ricotta, Cheddar, Gruyere, Blue Cheese, Goat Cheese, Monterey Jack, Brie, Gouda, Ricotta, Fresh Mozzarella<br/>
+            &nbsp;<br/>
+            <b>Meats: </b>Prosciutto, Pancetta, Sausage, Pepperoni, Chicken, Ham, Anchovies, Bacon, Spicy Ground Beef, Salami, Bacon, Meatballs, Chorizo, Buffalo Chicken<br/>
+            &nbsp;<br/>
+            <b>Toppings: </b>Fresh Basil, Fresh Arugula, Mushrooms, Crimini Mushrooms, Caramelized Onions, Sweet Onions, Red Onions, Green Onions, Bell Peppers, Green Olives, Black Olives, Artichoke, Jalapeno, Pineapple, Garlic, Pine Nuts, Avocado, Diced Tomatoes, Sliced Romas, Sun Dried Tomatoes, Spinach, Carrots, Zucchini, Serrano Chilies, Pear, Capers, Cilantro, Guacamole, Sour Cream, Brussels Sprouts<br/>
+            </div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+          <div class="mm-section">
+            <div class="mm-section-title">Flatbreads</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Pear Gorgonzola And Bacon</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Olive Oil, Pear, Gorgonzola, Bacon, Provolone, Walnuts</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Habanero Flatbread</div><div>$13.00</div></div></div>
+              <div class="mm-item-text">Cream Cheese, Jalapeno, House-Made Habanero Ginger Jelly, Bacon, Chorizo, Gruyere, Onion Straws</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Garlic Flatbread</div><div>$11.50</div></div></div>
+              <div class="mm-item-text">Ricotta Cheese, Roasted Garlic, Crushed Red Pepper, Fresh Basil, Olive Oil</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Crimini Flatbread</div><div>$13.00</div></div></div>
+              <div class="mm-item-text">Crimini Mushrooms, Gruyere, Parmesan, Sauteed Onions, Truffle Oil</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Goat Cheese Flatbread</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Goat Cheese, Ricotta, Brie, Mushrooms, Bacon, Arugula, Truffle Oil</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Pesto And Sun Dried Tomato Flatbread</div><div>$12.50</div></div></div>
+              <div class="mm-item-text">Pesto, Sun Dried Tomato, Ricotta, Goat Cheese</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Pina Colada Shrimp</div><div>$14.00</div></div></div>
+              <div class="mm-item-text">Shrimp, Provolone, Pineapple Coconut Sauce, Thai Sauce, Carrots</div>
+            </div><!-- .mm-item -->
+            </div><!-- .mm-section --></div><div class="menu-column col-md-6"><div class="mm-section"><div class="mm-section-title">Signature</div><div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Alfredo With Pancetta</div><div>$12.50 / $18.50 / $21.50</div></div></div>
+              <div class="mm-item-text">Alfredo Sauce, Gorgonzola, Mozzarella, Pancetta, Sliced Romas, Topped With Fresh Arugula
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Pear, Gorgonzola & Bacon</div><div>$13.50 / $19.60 / $22.60</div></div></div>
+              <div class="mm-item-text">Olive Oil, Pear, Gorgonzola, Bacon, Provolone, Walnuts
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Four Cheese</div><div>$13.50 / $19.50 / $22.50</div></div></div>
+              <div class="mm-item-text">Tomato Sauce, Mozzarella, Parmesan, Ricotta, Gorgonzola, Sprinkled With Oregano
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Hawaiian</div><div>$12.50 / $18.50 / $21.60</div></div></div>
+              <div class="mm-item-text">Tomato Sauce, Mozzarella, Pineapple, Ham</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Nacho</div><div>$13.60 / $19.60 / $22.50</div></div></div>
+              <div class="mm-item-text">Tomato Sauce, Cheddar, Mozzarella, Spicy Ground Beef, Diced Tomato, Green Onion, Black Olives, Finished With Guacamole, Pepper Plant Sauce, Sour Cream</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Pesto</div><div>$13.60 / $19.60 / $22.60</div></div></div>
+              <div class="mm-item-text">Pesto Sauce, Chicken, Ricotta, Mozzarella, Garlic, Pine Nuts</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Thai Chicken</div><div>$13.50 / $19.50 / $22.50</div></div></div>
+              <div class="mm-item-text">Thai Sauce, Peanut Sauce, Mozzarella, Chicken, Green Onion, Carrots, Cilantro</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Veggie</div><div>$12.60 / $18.60 / $21.60</div></div></div>
+              <div class="mm-item-text">Tomato Sauce, Tomato, Ricotta, Mozzarella, Fresh Basil, Crimini Mushrooms, Onions, Bell Pepper, Artichoke
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Brussell Sprout</div><div>$13.50 / $19.50 / $22.50</div></div></div>
+              <div class="mm-item-text">Alfredo sauce, Bacon, Shallots, Almonds, Garlic, Currants, Balsamic</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Alfredo Spinach</div><div>$13.50 / $19.50 / $22.50</div></div></div>
+              <div class="mm-item-text">Fresh Spinach, House-Made Alfredo Sauce, Red Onions</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Margherita</div><div>$13.50 / $19.50 / $20.50</div></div></div>
+              <div class="mm-item-text">Tomato Sauce, Fresh Roma Tomato Slices, Fresh Mozzarella, Fresh Basil</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+        </div><!-- .end-column -->
+      </div><!-- .row -->
+    </div><!-- .tab-pane -->
+    <div id="id1_4" class="tab-pane fade" role="tabpanel" aria-labelledby="id2_4_tab" >
+      <div class="mm-tab-header-text">Salads, Sides and Desserts</div>
+      <div class="row">
+        <div class="menu-column col-md-6">
+          <div class="mm-section">
+            <div class="mm-section-title">Salads</div>
+            <div class="mm-section-text">
+              Dressings: Balsamic Vinegar, Caesar, Thousand Island, Vinaigrette, Blue Cheese, Italian, Ranch
+              Add Protein: Grilled Chicken Breast 5.00, Beef Skewer 4.00 Per Skewer, Seared Ahi 8.00, Grilled Salmon 7.00
+            </div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Kale Salad</div><div>$6.50 / $10.50</div></div></div>
+              <div class="mm-item-text">Kale, Parmesan, Green Apples, Golden Raisins, Dried Cranberries, Vinaigrette</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Arugula</div><div>$7.60 / $12.60</div></div></div>
+              <div class="mm-item-text">Arugula, Parmesan, Artichoke Hearts, Olive Oil, Fresh Lemon
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Berry Spinach</div><div>$7.50 / $12.50</div></div></div>
+              <div class="mm-item-text">Spinach, Strawberries, Candied Almonds, Vinaigrette
+            </div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Caesar</div><div>$7.50 / $12.50</div></div></div>
+              <div class="mm-item-text">Romaine, Garlic Croutons, Parmesan Cheese, Caesar Dressing, (Anchovies Optional)</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Caprese</div><div>$9.50</div></div></div>
+              <div class="mm-item-text">Roma Tomato, Fresh Mozzarella, Fresh Basil, Olive Oil And Balsamic Vinegar</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Mixed Green</div><div>$6.50 / $10.50</div></div></div>
+              <div class="mm-item-text">Tomato, Carrots, Cucumber, Croutons (Choice Of Dressing)</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Grilled Romaine</div><div>$10.60</div></div></div>
+              <div class="mm-item-text">Romaine, Pickled Red Onions, Heirloom Tomatoes, Cucumber, Goat Cheese, Balsamic Glaze</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Wedge Salad</div><div>$8.00</div></div></div>
+              <div class="mm-item-text">Iceberg lettuce, Blue Cheese, Diced Tomatoes, Bacon</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Pear Salad</div><div>$8.50 / $13.50</div></div></div>
+              <div class="mm-item-text">Romaine, White Wine Poached Pears, Gorgonzola, Candied Walnuts, Balsamic Vinaigrette</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Chopped Salad</div><div>$8.50 / $13.50</div></div></div>
+              <div class="mm-item-text">Iceberg, Spinach, Radicchio, Red Onions, Green Olives, Mushrooms, Hearts Of Palm, Bacon, Hard Boiled Egg, Blue Cheese, Croutons, Cherry Tomatoes, Lemon Basil Dressing Topped With Onion Straws</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Southwest Quinoa Salad</div><div>$9.50 / $14.50</div></div></div>
+              <div class="mm-item-text">Roma Tomatoes, Sweet Dried Corn, Arugula, Crumbled Asiago, Toasted Pepitas, Dried Black Currants, Avocado, House-Made Pesto Dressing</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Asian Quinoa Salad With Seared Ahi</div><div>$14.50</div></div></div>
+              <div class="mm-item-text">Edamame, Cucumber, Shredded Carrots, Almonds, Red Bell Peppers, Red Cabbage, With Our Own Asian Dressing</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Beet Salad</div><div>$10.50</div></div></div>
+              <div class="mm-item-text">Arugula, Beets, Cantaloupe, Candied Almonds, Goat Cheese, Balsamic Vinaigrette</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+        </div>
+        <div class="menu-column col-md-6">
+          <div class="mm-section">
+            <div class="mm-section-title">Sides</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Knight Pop</div><div>$2.00</div></div></div>
+              <div class="mm-item-text">Tempura Fried Jalapeno, Chorizo Cream Cheese, Pepper Plant, Bacon</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Beer Battered Zucchini</div><div>$9.00</div></div></div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Beer Battered Onion Rings</div><div>$8.00</div></div></div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>French Fries</div><div>$7.00</div></div></div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Sweet Potato Fries</div><div>$7.00</div></div></div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Truffle Fries</div><div>$9.00</div></div></div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Chili Cheese Fries</div><div>$11.00</div></div></div>
+              <div class="mm-item-text">House Made Chili, Green Onions, Sour Cream</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Side Spring Mix</div><div>$5.00</div></div></div>
+              <div class="mm-item-text">Mixed Greens, Croutons, Dressing</div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Baked Potato Salad</div><div>$3.00</div></div></div>
+              <div class="mm-item-text">(Served Cold)</div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+          <div class="mm-section">
+            <div class="mm-section-title">Desserts</div>
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Lilikoi Cheesecake</div><div>$9.00</div></div></div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Brownie Flat</div><div>$8.00</div></div></div>
+            </div><!-- .mm-item -->
+            <div class="mm-item">
+              <div class="mm-item-price"><div class="dot-lead"><div>Hans Home-Made Vanilla Ice Cream</div><div>$6.00 / $8.00</div></div></div>
+            </div><!-- .mm-item -->
+          </div><!-- .mm-section -->
+        </div><!-- .end-column -->
+      </div><!-- .row -->
+    </div><!-- .tab-pane -->
+  </div><!-- .tab-content -->
+  <br/>
+  &nbsp;<br/>
+  &nbsp;<br/>
+</div><!-- container -->
+<div id="site-footer" class="container">
+  <div class="text-center">
+    <p>Black Knight Gastro Lounge</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
